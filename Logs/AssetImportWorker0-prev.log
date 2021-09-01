@@ -1,0 +1,1313 @@
+Using pre-set license
+Built from '2020.3/china_unity/release' branch; Version is '2020.3.5f1c1 (548653c6c3de) revision 5539411'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19041.1165; Version 2004; 64bit' Language: 'en' Physical Memory: 16328 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.5f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/geyat/Desktop/mr-platform-0825
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49990
+Successfully changed project path to: C:/Users/geyat/Desktop/mr-platform-0825
+C:/Users/geyat/Desktop/mr-platform-0825
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 418.13 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 1.09 ms.
+Initialize engine version: 2020.3.5f1c1 (548653c6c3de)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.5f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/geyat/Desktop/mr-platform-0825/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1e89)
+    Vendor:   
+    VRAM:     5967 MB
+    Driver:   30.0.14.7168
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1c1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56124
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.5f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002078 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 69.59 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.14 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.053 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.237450 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 68.10 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Port 62754 is in use, cannot start service!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogFormat (UnityEngine.LogType,string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:134)
+UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogError (string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:164)
+UnityEditor.AddressableAssets.HostingServices.HttpHostingService:StartHostingService () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HttpHostingService.cs:212)
+UnityEditor.AddressableAssets.HostingServices.BaseHostingService:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:29)
+UnityEditor.AddressableAssets.HostingServices.HostingServicesManager:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HostingServicesManager.cs:273)
+UnityEditor.AddressableAssets.Settings.AddressableAssetSettings:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/Settings/AddressableAssetSettings.cs:1161)
+UnityEditor.AssetDatabase:LoadAssetAtPath<UnityEditor.AddressableAssets.Settings.AddressableAssetSettings> (string)
+UnityEditor.AddressableAssets.AddressableAssetSettingsDefaultObject:LoadSettingsObject () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/AddressableAssetSettingsDefaultObject.cs:62)
+UnityEditor.AddressableAssets.AddressableAssetSettingsDefaultObject:get_Settings () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/AddressableAssetSettingsDefaultObject.cs:114)
+UnityEditor.AddressableAssets.AddressableEditorInitialization:.cctor () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/AddressableEditorInitialization.cs:20)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs Line: 134)
+
+[XR] OculusXRPlugin: registering subsystems
+[XR] Unable to register display lifecyle provider: [1]
+[XR] Oculus Input lifecycle provider registered.
+[XR] Unable to register input lifecyle provider: [1]
+[XR] OVRP version 1.60.0
+Mono: successfully reloaded assembly
+- Completed reload, in  1.481 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.99 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 2900 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.7 MB.
+System memory in use after: 132.7 MB.
+
+Unloading 65 unused Assets to reduce memory usage. Loaded Objects now: 3306.
+Total: 2.955400 ms (FindLiveObjects: 0.553200 ms CreateObjectMapping: 0.199900 ms MarkObjects: 2.101000 ms  DeleteObjects: 0.099800 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/MR Platform/Prefabs/FirstPersonPlayer 1.prefab
+  artifactKey: Guid(3aa13b53bad49d948979575a84180fb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MR Platform/Prefabs/FirstPersonPlayer 1.prefab using Guid(3aa13b53bad49d948979575a84180fb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b106878f6cf0da2a863df9f6ca54f13') in 0.224557 seconds
+  Import took 0.231241 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012908 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.46 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Port 62754 is in use, cannot start service!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogFormat (UnityEngine.LogType,string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:134)
+UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogError (string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:164)
+UnityEditor.AddressableAssets.HostingServices.HttpHostingService:StartHostingService () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HttpHostingService.cs:212)
+UnityEditor.AddressableAssets.HostingServices.BaseHostingService:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:29)
+UnityEditor.AddressableAssets.HostingServices.HostingServicesManager:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HostingServicesManager.cs:273)
+UnityEditor.AddressableAssets.Settings.AddressableAssetSettings:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/Settings/AddressableAssetSettings.cs:1161)
+
+(Filename: Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs Line: 134)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.673 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.10 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Unloading 2812 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 142.4 MB.
+System memory in use after: 142.6 MB.
+
+Unloading 58 unused Assets to reduce memory usage. Loaded Objects now: 3319.
+Total: 5.182000 ms (FindLiveObjects: 0.527000 ms CreateObjectMapping: 0.428900 ms MarkObjects: 4.173000 ms  DeleteObjects: 0.050600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010456 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Port 62754 is in use, cannot start service!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogFormat (UnityEngine.LogType,string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:134)
+UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogError (string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:164)
+UnityEditor.AddressableAssets.HostingServices.HttpHostingService:StartHostingService () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HttpHostingService.cs:212)
+UnityEditor.AddressableAssets.HostingServices.BaseHostingService:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:29)
+UnityEditor.AddressableAssets.HostingServices.HostingServicesManager:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HostingServicesManager.cs:273)
+UnityEditor.AddressableAssets.Settings.AddressableAssetSettings:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/Settings/AddressableAssetSettings.cs:1161)
+
+(Filename: Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs Line: 134)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.154 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.10 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 2812 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 142.5 MB.
+System memory in use after: 142.7 MB.
+
+Unloading 58 unused Assets to reduce memory usage. Loaded Objects now: 3323.
+Total: 3.799300 ms (FindLiveObjects: 0.292500 ms CreateObjectMapping: 0.159100 ms MarkObjects: 3.292000 ms  DeleteObjects: 0.054500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010971 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.26 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Port 62754 is in use, cannot start service!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogFormat (UnityEngine.LogType,string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:134)
+UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogError (string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:164)
+UnityEditor.AddressableAssets.HostingServices.HttpHostingService:StartHostingService () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HttpHostingService.cs:212)
+UnityEditor.AddressableAssets.HostingServices.BaseHostingService:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:29)
+UnityEditor.AddressableAssets.HostingServices.HostingServicesManager:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HostingServicesManager.cs:273)
+UnityEditor.AddressableAssets.Settings.AddressableAssetSettings:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/Settings/AddressableAssetSettings.cs:1161)
+
+(Filename: Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs Line: 134)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.228 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.77 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 2812 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 142.5 MB.
+System memory in use after: 142.7 MB.
+
+Unloading 58 unused Assets to reduce memory usage. Loaded Objects now: 3327.
+Total: 4.217500 ms (FindLiveObjects: 0.309600 ms CreateObjectMapping: 0.506300 ms MarkObjects: 3.359000 ms  DeleteObjects: 0.041300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008871 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.99 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Port 62754 is in use, cannot start service!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogFormat (UnityEngine.LogType,string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:134)
+UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogError (string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:164)
+UnityEditor.AddressableAssets.HostingServices.HttpHostingService:StartHostingService () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HttpHostingService.cs:212)
+UnityEditor.AddressableAssets.HostingServices.BaseHostingService:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:29)
+UnityEditor.AddressableAssets.HostingServices.HostingServicesManager:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HostingServicesManager.cs:273)
+UnityEditor.AddressableAssets.Settings.AddressableAssetSettings:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/Settings/AddressableAssetSettings.cs:1161)
+
+(Filename: Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs Line: 134)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.282 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.06 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 2812 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 142.5 MB.
+System memory in use after: 142.7 MB.
+
+Unloading 58 unused Assets to reduce memory usage. Loaded Objects now: 3331.
+Total: 3.831500 ms (FindLiveObjects: 0.359200 ms CreateObjectMapping: 0.181500 ms MarkObjects: 3.239900 ms  DeleteObjects: 0.041700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009116 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.16 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Port 62754 is in use, cannot start service!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogFormat (UnityEngine.LogType,string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:134)
+UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogError (string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:164)
+UnityEditor.AddressableAssets.HostingServices.HttpHostingService:StartHostingService () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HttpHostingService.cs:212)
+UnityEditor.AddressableAssets.HostingServices.BaseHostingService:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:29)
+UnityEditor.AddressableAssets.HostingServices.HostingServicesManager:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HostingServicesManager.cs:273)
+UnityEditor.AddressableAssets.Settings.AddressableAssetSettings:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/Settings/AddressableAssetSettings.cs:1161)
+
+(Filename: Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs Line: 134)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.195 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.06 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 2812 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 142.5 MB.
+System memory in use after: 142.8 MB.
+
+Unloading 58 unused Assets to reduce memory usage. Loaded Objects now: 3335.
+Total: 3.358600 ms (FindLiveObjects: 0.367500 ms CreateObjectMapping: 0.191200 ms MarkObjects: 2.754300 ms  DeleteObjects: 0.044200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009982 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.60 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Port 62754 is in use, cannot start service!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogFormat (UnityEngine.LogType,string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:134)
+UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogError (string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:164)
+UnityEditor.AddressableAssets.HostingServices.HttpHostingService:StartHostingService () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HttpHostingService.cs:212)
+UnityEditor.AddressableAssets.HostingServices.BaseHostingService:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:29)
+UnityEditor.AddressableAssets.HostingServices.HostingServicesManager:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HostingServicesManager.cs:273)
+UnityEditor.AddressableAssets.Settings.AddressableAssetSettings:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/Settings/AddressableAssetSettings.cs:1161)
+
+(Filename: Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs Line: 134)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.368 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.02 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 2812 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 142.5 MB.
+System memory in use after: 142.8 MB.
+
+Unloading 58 unused Assets to reduce memory usage. Loaded Objects now: 3339.
+Total: 3.102100 ms (FindLiveObjects: 0.280800 ms CreateObjectMapping: 0.162500 ms MarkObjects: 2.603700 ms  DeleteObjects: 0.053100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009121 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Port 62754 is in use, cannot start service!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogFormat (UnityEngine.LogType,string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:134)
+UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogError (string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:164)
+UnityEditor.AddressableAssets.HostingServices.HttpHostingService:StartHostingService () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HttpHostingService.cs:212)
+UnityEditor.AddressableAssets.HostingServices.BaseHostingService:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:29)
+UnityEditor.AddressableAssets.HostingServices.HostingServicesManager:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HostingServicesManager.cs:273)
+UnityEditor.AddressableAssets.Settings.AddressableAssetSettings:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/Settings/AddressableAssetSettings.cs:1161)
+
+(Filename: Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs Line: 134)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.207 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.02 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 2812 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 143.8 MB.
+System memory in use after: 144.1 MB.
+
+Unloading 58 unused Assets to reduce memory usage. Loaded Objects now: 3343.
+Total: 2.586700 ms (FindLiveObjects: 0.269400 ms CreateObjectMapping: 0.132000 ms MarkObjects: 2.145800 ms  DeleteObjects: 0.038500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009980 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.99 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Port 62754 is in use, cannot start service!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogFormat (UnityEngine.LogType,string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:134)
+UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogError (string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:164)
+UnityEditor.AddressableAssets.HostingServices.HttpHostingService:StartHostingService () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HttpHostingService.cs:212)
+UnityEditor.AddressableAssets.HostingServices.BaseHostingService:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:29)
+UnityEditor.AddressableAssets.HostingServices.HostingServicesManager:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HostingServicesManager.cs:273)
+UnityEditor.AddressableAssets.Settings.AddressableAssetSettings:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/Settings/AddressableAssetSettings.cs:1161)
+
+(Filename: Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs Line: 134)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.197 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.21 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.17 ms.
+Unloading 2812 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 143.9 MB.
+System memory in use after: 144.1 MB.
+
+Unloading 58 unused Assets to reduce memory usage. Loaded Objects now: 3347.
+Total: 3.784400 ms (FindLiveObjects: 0.527400 ms CreateObjectMapping: 0.471000 ms MarkObjects: 2.730900 ms  DeleteObjects: 0.053800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010283 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.05 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Port 62754 is in use, cannot start service!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogFormat (UnityEngine.LogType,string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:134)
+UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogError (string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:164)
+UnityEditor.AddressableAssets.HostingServices.HttpHostingService:StartHostingService () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HttpHostingService.cs:212)
+UnityEditor.AddressableAssets.HostingServices.BaseHostingService:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:29)
+UnityEditor.AddressableAssets.HostingServices.HostingServicesManager:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HostingServicesManager.cs:273)
+UnityEditor.AddressableAssets.Settings.AddressableAssetSettings:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/Settings/AddressableAssetSettings.cs:1161)
+
+(Filename: Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs Line: 134)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.240 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.05 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 2812 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 142.6 MB.
+System memory in use after: 142.8 MB.
+
+Unloading 58 unused Assets to reduce memory usage. Loaded Objects now: 3351.
+Total: 2.748800 ms (FindLiveObjects: 0.304500 ms CreateObjectMapping: 0.155900 ms MarkObjects: 2.242200 ms  DeleteObjects: 0.044600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009332 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.05 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Port 62754 is in use, cannot start service!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogFormat (UnityEngine.LogType,string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:134)
+UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogError (string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:164)
+UnityEditor.AddressableAssets.HostingServices.HttpHostingService:StartHostingService () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HttpHostingService.cs:212)
+UnityEditor.AddressableAssets.HostingServices.BaseHostingService:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:29)
+UnityEditor.AddressableAssets.HostingServices.HostingServicesManager:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HostingServicesManager.cs:273)
+UnityEditor.AddressableAssets.Settings.AddressableAssetSettings:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/Settings/AddressableAssetSettings.cs:1161)
+
+(Filename: Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs Line: 134)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.381 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 2812 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 142.6 MB.
+System memory in use after: 142.8 MB.
+
+Unloading 58 unused Assets to reduce memory usage. Loaded Objects now: 3355.
+Total: 3.230500 ms (FindLiveObjects: 0.348200 ms CreateObjectMapping: 0.165000 ms MarkObjects: 2.667100 ms  DeleteObjects: 0.048700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009713 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.15 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.15 ms.
+Port 62754 is in use, cannot start service!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogFormat (UnityEngine.LogType,string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:134)
+UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogError (string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:164)
+UnityEditor.AddressableAssets.HostingServices.HttpHostingService:StartHostingService () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HttpHostingService.cs:212)
+UnityEditor.AddressableAssets.HostingServices.BaseHostingService:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:29)
+UnityEditor.AddressableAssets.HostingServices.HostingServicesManager:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HostingServicesManager.cs:273)
+UnityEditor.AddressableAssets.Settings.AddressableAssetSettings:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/Settings/AddressableAssetSettings.cs:1161)
+
+(Filename: Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs Line: 134)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.322 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.20 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Unloading 2812 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 142.6 MB.
+System memory in use after: 142.8 MB.
+
+Unloading 58 unused Assets to reduce memory usage. Loaded Objects now: 3359.
+Total: 2.930900 ms (FindLiveObjects: 0.288600 ms CreateObjectMapping: 0.153200 ms MarkObjects: 2.453300 ms  DeleteObjects: 0.034600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009602 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.15 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Port 62754 is in use, cannot start service!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogFormat (UnityEngine.LogType,string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:134)
+UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogError (string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:164)
+UnityEditor.AddressableAssets.HostingServices.HttpHostingService:StartHostingService () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HttpHostingService.cs:212)
+UnityEditor.AddressableAssets.HostingServices.BaseHostingService:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:29)
+UnityEditor.AddressableAssets.HostingServices.HostingServicesManager:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HostingServicesManager.cs:273)
+UnityEditor.AddressableAssets.Settings.AddressableAssetSettings:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/Settings/AddressableAssetSettings.cs:1161)
+
+(Filename: Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs Line: 134)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.215 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.01 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 2812 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 142.6 MB.
+System memory in use after: 142.8 MB.
+
+Unloading 58 unused Assets to reduce memory usage. Loaded Objects now: 3363.
+Total: 2.789500 ms (FindLiveObjects: 0.290400 ms CreateObjectMapping: 0.130200 ms MarkObjects: 2.303100 ms  DeleteObjects: 0.064500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011421 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.01 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Port 62754 is in use, cannot start service!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogFormat (UnityEngine.LogType,string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:134)
+UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogError (string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:164)
+UnityEditor.AddressableAssets.HostingServices.HttpHostingService:StartHostingService () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HttpHostingService.cs:212)
+UnityEditor.AddressableAssets.HostingServices.BaseHostingService:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:29)
+UnityEditor.AddressableAssets.HostingServices.HostingServicesManager:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HostingServicesManager.cs:273)
+UnityEditor.AddressableAssets.Settings.AddressableAssetSettings:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/Settings/AddressableAssetSettings.cs:1161)
+
+(Filename: Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs Line: 134)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.198 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.05 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 2812 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 142.6 MB.
+System memory in use after: 142.9 MB.
+
+Unloading 58 unused Assets to reduce memory usage. Loaded Objects now: 3367.
+Total: 2.777200 ms (FindLiveObjects: 0.284000 ms CreateObjectMapping: 0.134600 ms MarkObjects: 2.308800 ms  DeleteObjects: 0.048500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012311 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.37 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Port 62754 is in use, cannot start service!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogFormat (UnityEngine.LogType,string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:134)
+UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogError (string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:164)
+UnityEditor.AddressableAssets.HostingServices.HttpHostingService:StartHostingService () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HttpHostingService.cs:212)
+UnityEditor.AddressableAssets.HostingServices.BaseHostingService:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:29)
+UnityEditor.AddressableAssets.HostingServices.HostingServicesManager:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HostingServicesManager.cs:273)
+UnityEditor.AddressableAssets.Settings.AddressableAssetSettings:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/Settings/AddressableAssetSettings.cs:1161)
+
+(Filename: Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs Line: 134)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.679 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.26 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Unloading 2812 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 142.6 MB.
+System memory in use after: 142.9 MB.
+
+Unloading 58 unused Assets to reduce memory usage. Loaded Objects now: 3371.
+Total: 3.845500 ms (FindLiveObjects: 0.411700 ms CreateObjectMapping: 0.207800 ms MarkObjects: 3.189900 ms  DeleteObjects: 0.034600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012783 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.15 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Port 62754 is in use, cannot start service!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogFormat (UnityEngine.LogType,string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:134)
+UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogError (string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:164)
+UnityEditor.AddressableAssets.HostingServices.HttpHostingService:StartHostingService () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HttpHostingService.cs:212)
+UnityEditor.AddressableAssets.HostingServices.BaseHostingService:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:29)
+UnityEditor.AddressableAssets.HostingServices.HostingServicesManager:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HostingServicesManager.cs:273)
+UnityEditor.AddressableAssets.Settings.AddressableAssetSettings:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/Settings/AddressableAssetSettings.cs:1161)
+
+(Filename: Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs Line: 134)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.593 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.04 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 2812 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 142.6 MB.
+System memory in use after: 142.9 MB.
+
+Unloading 58 unused Assets to reduce memory usage. Loaded Objects now: 3375.
+Total: 4.329100 ms (FindLiveObjects: 0.319200 ms CreateObjectMapping: 0.825200 ms MarkObjects: 3.146300 ms  DeleteObjects: 0.037200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009128 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.15 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Port 62754 is in use, cannot start service!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogFormat (UnityEngine.LogType,string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:134)
+UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogError (string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:164)
+UnityEditor.AddressableAssets.HostingServices.HttpHostingService:StartHostingService () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HttpHostingService.cs:212)
+UnityEditor.AddressableAssets.HostingServices.BaseHostingService:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:29)
+UnityEditor.AddressableAssets.HostingServices.HostingServicesManager:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HostingServicesManager.cs:273)
+UnityEditor.AddressableAssets.Settings.AddressableAssetSettings:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/Settings/AddressableAssetSettings.cs:1161)
+
+(Filename: Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs Line: 134)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.212 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.10 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Unloading 2812 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 142.7 MB.
+System memory in use after: 142.9 MB.
+
+Unloading 58 unused Assets to reduce memory usage. Loaded Objects now: 3379.
+Total: 5.602700 ms (FindLiveObjects: 2.972500 ms CreateObjectMapping: 0.202400 ms MarkObjects: 2.392300 ms  DeleteObjects: 0.034100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.017866 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.05 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Port 62754 is in use, cannot start service!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogFormat (UnityEngine.LogType,string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:134)
+UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogError (string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:164)
+UnityEditor.AddressableAssets.HostingServices.HttpHostingService:StartHostingService () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HttpHostingService.cs:212)
+UnityEditor.AddressableAssets.HostingServices.BaseHostingService:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:29)
+UnityEditor.AddressableAssets.HostingServices.HostingServicesManager:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HostingServicesManager.cs:273)
+UnityEditor.AddressableAssets.Settings.AddressableAssetSettings:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/Settings/AddressableAssetSettings.cs:1161)
+
+(Filename: Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs Line: 134)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.256 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 2812 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 142.7 MB.
+System memory in use after: 142.9 MB.
+
+Unloading 58 unused Assets to reduce memory usage. Loaded Objects now: 3383.
+Total: 3.153700 ms (FindLiveObjects: 0.301700 ms CreateObjectMapping: 0.157600 ms MarkObjects: 2.568400 ms  DeleteObjects: 0.124900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.023173 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.30 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Port 62754 is in use, cannot start service!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogFormat (UnityEngine.LogType,string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:134)
+UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogError (string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:164)
+UnityEditor.AddressableAssets.HostingServices.HttpHostingService:StartHostingService () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HttpHostingService.cs:212)
+UnityEditor.AddressableAssets.HostingServices.BaseHostingService:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:29)
+UnityEditor.AddressableAssets.HostingServices.HostingServicesManager:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HostingServicesManager.cs:273)
+UnityEditor.AddressableAssets.Settings.AddressableAssetSettings:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/Settings/AddressableAssetSettings.cs:1161)
+
+(Filename: Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs Line: 134)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.610 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.33 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Unloading 2812 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 142.7 MB.
+System memory in use after: 142.9 MB.
+
+Unloading 58 unused Assets to reduce memory usage. Loaded Objects now: 3387.
+Total: 4.239800 ms (FindLiveObjects: 0.340000 ms CreateObjectMapping: 0.219900 ms MarkObjects: 3.567000 ms  DeleteObjects: 0.111600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010222 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.06 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Port 62754 is in use, cannot start service!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogFormat (UnityEngine.LogType,string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:134)
+UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogError (string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:164)
+UnityEditor.AddressableAssets.HostingServices.HttpHostingService:StartHostingService () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HttpHostingService.cs:212)
+UnityEditor.AddressableAssets.HostingServices.BaseHostingService:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:29)
+UnityEditor.AddressableAssets.HostingServices.HostingServicesManager:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HostingServicesManager.cs:273)
+UnityEditor.AddressableAssets.Settings.AddressableAssetSettings:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/Settings/AddressableAssetSettings.cs:1161)
+
+(Filename: Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs Line: 134)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.213 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.11 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Unloading 2812 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 142.7 MB.
+System memory in use after: 142.9 MB.
+
+Unloading 58 unused Assets to reduce memory usage. Loaded Objects now: 3391.
+Total: 3.667800 ms (FindLiveObjects: 0.418700 ms CreateObjectMapping: 0.269200 ms MarkObjects: 2.910800 ms  DeleteObjects: 0.037800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009783 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.12 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Port 62754 is in use, cannot start service!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogFormat (UnityEngine.LogType,string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:134)
+UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogError (string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:164)
+UnityEditor.AddressableAssets.HostingServices.HttpHostingService:StartHostingService () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HttpHostingService.cs:212)
+UnityEditor.AddressableAssets.HostingServices.BaseHostingService:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:29)
+UnityEditor.AddressableAssets.HostingServices.HostingServicesManager:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HostingServicesManager.cs:273)
+UnityEditor.AddressableAssets.Settings.AddressableAssetSettings:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/Settings/AddressableAssetSettings.cs:1161)
+
+(Filename: Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs Line: 134)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.267 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.02 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 2812 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 142.7 MB.
+System memory in use after: 142.9 MB.
+
+Unloading 58 unused Assets to reduce memory usage. Loaded Objects now: 3395.
+Total: 3.288200 ms (FindLiveObjects: 0.298900 ms CreateObjectMapping: 0.158500 ms MarkObjects: 2.782300 ms  DeleteObjects: 0.047100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012306 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.10 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Port 62754 is in use, cannot start service!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogFormat (UnityEngine.LogType,string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:134)
+UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogError (string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:164)
+UnityEditor.AddressableAssets.HostingServices.HttpHostingService:StartHostingService () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HttpHostingService.cs:212)
+UnityEditor.AddressableAssets.HostingServices.BaseHostingService:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:29)
+UnityEditor.AddressableAssets.HostingServices.HostingServicesManager:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HostingServicesManager.cs:273)
+UnityEditor.AddressableAssets.Settings.AddressableAssetSettings:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/Settings/AddressableAssetSettings.cs:1161)
+
+(Filename: Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs Line: 134)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.556 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.69 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 2812 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 142.7 MB.
+System memory in use after: 142.9 MB.
+
+Unloading 58 unused Assets to reduce memory usage. Loaded Objects now: 3399.
+Total: 3.224200 ms (FindLiveObjects: 0.348200 ms CreateObjectMapping: 0.392200 ms MarkObjects: 2.440700 ms  DeleteObjects: 0.041100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009117 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.13 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Port 62754 is in use, cannot start service!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogFormat (UnityEngine.LogType,string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:134)
+UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogError (string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:164)
+UnityEditor.AddressableAssets.HostingServices.HttpHostingService:StartHostingService () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HttpHostingService.cs:212)
+UnityEditor.AddressableAssets.HostingServices.BaseHostingService:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:29)
+UnityEditor.AddressableAssets.HostingServices.HostingServicesManager:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HostingServicesManager.cs:273)
+UnityEditor.AddressableAssets.Settings.AddressableAssetSettings:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/Settings/AddressableAssetSettings.cs:1161)
+
+(Filename: Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs Line: 134)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.398 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.22 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 2812 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 142.7 MB.
+System memory in use after: 143.0 MB.
+
+Unloading 58 unused Assets to reduce memory usage. Loaded Objects now: 3403.
+Total: 4.797800 ms (FindLiveObjects: 0.509700 ms CreateObjectMapping: 0.247400 ms MarkObjects: 3.998000 ms  DeleteObjects: 0.041400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.033200 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.12 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.15 ms.
+Port 62754 is in use, cannot start service!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogFormat (UnityEngine.LogType,string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:134)
+UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogError (string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:164)
+UnityEditor.AddressableAssets.HostingServices.HttpHostingService:StartHostingService () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HttpHostingService.cs:212)
+UnityEditor.AddressableAssets.HostingServices.BaseHostingService:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:29)
+UnityEditor.AddressableAssets.HostingServices.HostingServicesManager:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HostingServicesManager.cs:273)
+UnityEditor.AddressableAssets.Settings.AddressableAssetSettings:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/Settings/AddressableAssetSettings.cs:1161)
+
+(Filename: Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs Line: 134)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.312 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.15 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Unloading 2812 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 142.7 MB.
+System memory in use after: 143.0 MB.
+
+Unloading 58 unused Assets to reduce memory usage. Loaded Objects now: 3407.
+Total: 4.270300 ms (FindLiveObjects: 0.411400 ms CreateObjectMapping: 0.595400 ms MarkObjects: 3.226000 ms  DeleteObjects: 0.035700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009413 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Port 62754 is in use, cannot start service!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogFormat (UnityEngine.LogType,string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:134)
+UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogError (string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:164)
+UnityEditor.AddressableAssets.HostingServices.HttpHostingService:StartHostingService () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HttpHostingService.cs:212)
+UnityEditor.AddressableAssets.HostingServices.BaseHostingService:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:29)
+UnityEditor.AddressableAssets.HostingServices.HostingServicesManager:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HostingServicesManager.cs:273)
+UnityEditor.AddressableAssets.Settings.AddressableAssetSettings:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/Settings/AddressableAssetSettings.cs:1161)
+
+(Filename: Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs Line: 134)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.159 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.18 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 2812 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 142.7 MB.
+System memory in use after: 143.0 MB.
+
+Unloading 58 unused Assets to reduce memory usage. Loaded Objects now: 3411.
+Total: 3.110400 ms (FindLiveObjects: 0.309100 ms CreateObjectMapping: 0.175000 ms MarkObjects: 2.587100 ms  DeleteObjects: 0.037800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011701 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.07 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Port 62754 is in use, cannot start service!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogFormat (UnityEngine.LogType,string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:134)
+UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogError (string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:164)
+UnityEditor.AddressableAssets.HostingServices.HttpHostingService:StartHostingService () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HttpHostingService.cs:212)
+UnityEditor.AddressableAssets.HostingServices.BaseHostingService:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:29)
+UnityEditor.AddressableAssets.HostingServices.HostingServicesManager:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HostingServicesManager.cs:273)
+UnityEditor.AddressableAssets.Settings.AddressableAssetSettings:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/Settings/AddressableAssetSettings.cs:1161)
+
+(Filename: Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs Line: 134)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.303 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.06 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 2812 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 142.8 MB.
+System memory in use after: 143.0 MB.
+
+Unloading 58 unused Assets to reduce memory usage. Loaded Objects now: 3415.
+Total: 2.955900 ms (FindLiveObjects: 0.291700 ms CreateObjectMapping: 0.133900 ms MarkObjects: 2.464400 ms  DeleteObjects: 0.064400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013582 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.04 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Port 62754 is in use, cannot start service!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogFormat (UnityEngine.LogType,string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:134)
+UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogError (string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:164)
+UnityEditor.AddressableAssets.HostingServices.HttpHostingService:StartHostingService () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HttpHostingService.cs:212)
+UnityEditor.AddressableAssets.HostingServices.BaseHostingService:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:29)
+UnityEditor.AddressableAssets.HostingServices.HostingServicesManager:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HostingServicesManager.cs:273)
+UnityEditor.AddressableAssets.Settings.AddressableAssetSettings:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/Settings/AddressableAssetSettings.cs:1161)
+
+(Filename: Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs Line: 134)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.217 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.09 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 2812 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 142.8 MB.
+System memory in use after: 143.0 MB.
+
+Unloading 58 unused Assets to reduce memory usage. Loaded Objects now: 3419.
+Total: 3.351900 ms (FindLiveObjects: 0.365800 ms CreateObjectMapping: 0.167700 ms MarkObjects: 2.779800 ms  DeleteObjects: 0.036700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009950 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.32 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Port 62754 is in use, cannot start service!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogFormat (UnityEngine.LogType,string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:134)
+UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogError (string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:164)
+UnityEditor.AddressableAssets.HostingServices.HttpHostingService:StartHostingService () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HttpHostingService.cs:212)
+UnityEditor.AddressableAssets.HostingServices.BaseHostingService:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:29)
+UnityEditor.AddressableAssets.HostingServices.HostingServicesManager:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HostingServicesManager.cs:273)
+UnityEditor.AddressableAssets.Settings.AddressableAssetSettings:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/Settings/AddressableAssetSettings.cs:1161)
+
+(Filename: Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs Line: 134)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.387 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.77 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Unloading 2812 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 142.8 MB.
+System memory in use after: 143.0 MB.
+
+Unloading 58 unused Assets to reduce memory usage. Loaded Objects now: 3423.
+Total: 3.280800 ms (FindLiveObjects: 0.294300 ms CreateObjectMapping: 0.141700 ms MarkObjects: 2.806700 ms  DeleteObjects: 0.036600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016965 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.21 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Port 62754 is in use, cannot start service!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogFormat (UnityEngine.LogType,string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:134)
+UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogError (string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:164)
+UnityEditor.AddressableAssets.HostingServices.HttpHostingService:StartHostingService () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HttpHostingService.cs:212)
+UnityEditor.AddressableAssets.HostingServices.BaseHostingService:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:29)
+UnityEditor.AddressableAssets.HostingServices.HostingServicesManager:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HostingServicesManager.cs:273)
+UnityEditor.AddressableAssets.Settings.AddressableAssetSettings:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/Settings/AddressableAssetSettings.cs:1161)
+
+(Filename: Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs Line: 134)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.466 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.05 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 2812 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 142.8 MB.
+System memory in use after: 143.0 MB.
+
+Unloading 58 unused Assets to reduce memory usage. Loaded Objects now: 3427.
+Total: 3.089500 ms (FindLiveObjects: 0.311200 ms CreateObjectMapping: 0.149800 ms MarkObjects: 2.579600 ms  DeleteObjects: 0.047300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009333 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.05 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Port 62754 is in use, cannot start service!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogFormat (UnityEngine.LogType,string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:134)
+UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogError (string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:164)
+UnityEditor.AddressableAssets.HostingServices.HttpHostingService:StartHostingService () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HttpHostingService.cs:212)
+UnityEditor.AddressableAssets.HostingServices.BaseHostingService:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:29)
+UnityEditor.AddressableAssets.HostingServices.HostingServicesManager:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HostingServicesManager.cs:273)
+UnityEditor.AddressableAssets.Settings.AddressableAssetSettings:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/Settings/AddressableAssetSettings.cs:1161)
+
+(Filename: Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs Line: 134)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.209 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.04 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 2812 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 142.8 MB.
+System memory in use after: 143.0 MB.
+
+Unloading 58 unused Assets to reduce memory usage. Loaded Objects now: 3431.
+Total: 3.357100 ms (FindLiveObjects: 0.295700 ms CreateObjectMapping: 0.141100 ms MarkObjects: 2.881900 ms  DeleteObjects: 0.037100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010504 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.09 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Port 62754 is in use, cannot start service!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogFormat (UnityEngine.LogType,string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:134)
+UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogError (string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:164)
+UnityEditor.AddressableAssets.HostingServices.HttpHostingService:StartHostingService () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HttpHostingService.cs:212)
+UnityEditor.AddressableAssets.HostingServices.BaseHostingService:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:29)
+UnityEditor.AddressableAssets.HostingServices.HostingServicesManager:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HostingServicesManager.cs:273)
+UnityEditor.AddressableAssets.Settings.AddressableAssetSettings:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/Settings/AddressableAssetSettings.cs:1161)
+
+(Filename: Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs Line: 134)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.219 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.05 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Unloading 2812 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 142.8 MB.
+System memory in use after: 143.0 MB.
+
+Unloading 58 unused Assets to reduce memory usage. Loaded Objects now: 3435.
+Total: 2.902100 ms (FindLiveObjects: 0.305400 ms CreateObjectMapping: 0.196700 ms MarkObjects: 2.356400 ms  DeleteObjects: 0.042200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013240 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.04 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Port 62754 is in use, cannot start service!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogFormat (UnityEngine.LogType,string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:134)
+UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogError (string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:164)
+UnityEditor.AddressableAssets.HostingServices.HttpHostingService:StartHostingService () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HttpHostingService.cs:212)
+UnityEditor.AddressableAssets.HostingServices.BaseHostingService:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:29)
+UnityEditor.AddressableAssets.HostingServices.HostingServicesManager:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HostingServicesManager.cs:273)
+UnityEditor.AddressableAssets.Settings.AddressableAssetSettings:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/Settings/AddressableAssetSettings.cs:1161)
+
+(Filename: Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs Line: 134)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.244 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.07 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Unloading 2812 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 142.8 MB.
+System memory in use after: 143.1 MB.
+
+Unloading 58 unused Assets to reduce memory usage. Loaded Objects now: 3439.
+Total: 2.789400 ms (FindLiveObjects: 0.298400 ms CreateObjectMapping: 0.130600 ms MarkObjects: 2.327600 ms  DeleteObjects: 0.031900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 4043.962566 seconds.
+  path: Assets/MR Platform/Prefabs/FirstPersonPlayer 2.prefab
+  artifactKey: Guid(479e8975673643f42bc0581476bc2463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MR Platform/Prefabs/FirstPersonPlayer 2.prefab using Guid(479e8975673643f42bc0581476bc2463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77ce93e692e9ff0d369603f02e358119') in 0.131278 seconds
+  Import took 0.139607 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.535324 seconds.
+  path: Assets/Oculus/Spatializer/scenes/Standard Assets/Character Controllers/First Person Controller.prefab
+  artifactKey: Guid(9d4133d5d30b644bd87802a347eaccbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Spatializer/scenes/Standard Assets/Character Controllers/First Person Controller.prefab using Guid(9d4133d5d30b644bd87802a347eaccbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab149677d40c092fdfd83b5572a3ff90') in 0.017882 seconds
+  Import took 0.025039 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.037266 seconds.
+  path: Assets/Oculus/VR/Prefabs/OVRCameraRig.prefab
+  artifactKey: Guid(126d619cf4daa52469682f85c1378b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/VR/Prefabs/OVRCameraRig.prefab using Guid(126d619cf4daa52469682f85c1378b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '693dfbc222ed5b7e778d534065823a7c') in 0.010245 seconds
+  Import took 0.016054 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003393 seconds.
+  path: Assets/Oculus/VR/Prefabs/OVRCameraRig.prefab
+  artifactKey: Guid(126d619cf4daa52469682f85c1378b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/VR/Prefabs/OVRCameraRig.prefab using Guid(126d619cf4daa52469682f85c1378b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '693dfbc222ed5b7e778d534065823a7c') in 0.006589 seconds
+  Import took 0.012097 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.797379 seconds.
+  path: Assets/Oculus/VR/Scripts/OVRCameraRig.cs
+  artifactKey: Guid(df9f338034892c44ebb62d97894772f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/VR/Scripts/OVRCameraRig.cs using Guid(df9f338034892c44ebb62d97894772f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '149ea4aecca11adca9d165d75aaaf74f') in 0.019156 seconds
+  Import took 0.024834 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 59.354766 seconds.
+  path: Assets/MR Platform/Prefabs/FirstPersonPlayer 1.prefab
+  artifactKey: Guid(3aa13b53bad49d948979575a84180fb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MR Platform/Prefabs/FirstPersonPlayer 1.prefab using Guid(3aa13b53bad49d948979575a84180fb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af925daa6832c9bba99244fefdce5d6e') in 0.043164 seconds
+  Import took 0.050200 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.349338 seconds.
+  path: Assets/Oculus/VR/Prefabs/OVRCameraRig.prefab
+  artifactKey: Guid(126d619cf4daa52469682f85c1378b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/VR/Prefabs/OVRCameraRig.prefab using Guid(126d619cf4daa52469682f85c1378b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88e13d2ed202c8a86f32bd950c0970d0') in 0.005289 seconds
+  Import took 0.011285 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.809723 seconds.
+  path: Assets/OVRCameraRig.prefab
+  artifactKey: Guid(5b90da9848de4df4aaeede08e8650694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OVRCameraRig.prefab using Guid(5b90da9848de4df4aaeede08e8650694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53c988d66996bbbdf28c75b314ed3139') in 0.006255 seconds
+  Import took 0.011811 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.489018 seconds.
+  path: Assets/OVRCameraRig222.prefab
+  artifactKey: Guid(5b90da9848de4df4aaeede08e8650694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OVRCameraRig222.prefab using Guid(5b90da9848de4df4aaeede08e8650694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba8011485a7ecf21e781c5a6732c9f2a') in 0.010026 seconds
+  Import took 0.015601 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011561 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.16 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Port 62754 is in use, cannot start service!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogFormat (UnityEngine.LogType,string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:134)
+UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogError (string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:164)
+UnityEditor.AddressableAssets.HostingServices.HttpHostingService:StartHostingService () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HttpHostingService.cs:212)
+UnityEditor.AddressableAssets.HostingServices.BaseHostingService:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:29)
+UnityEditor.AddressableAssets.HostingServices.HostingServicesManager:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HostingServicesManager.cs:273)
+UnityEditor.AddressableAssets.Settings.AddressableAssetSettings:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/Settings/AddressableAssetSettings.cs:1161)
+
+(Filename: Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs Line: 134)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.378 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.13 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+Unloading 2812 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 142.9 MB.
+System memory in use after: 143.2 MB.
+
+Unloading 59 unused Assets to reduce memory usage. Loaded Objects now: 3445.
+Total: 2.973900 ms (FindLiveObjects: 0.374300 ms CreateObjectMapping: 0.178800 ms MarkObjects: 2.380800 ms  DeleteObjects: 0.038400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 91.355178 seconds.
+  path: Assets/OVRCameraRig222.prefab
+  artifactKey: Guid(5b90da9848de4df4aaeede08e8650694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OVRCameraRig222.prefab using Guid(5b90da9848de4df4aaeede08e8650694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b32d4b4b0a54be2ea9ecdafad17cabe') in 0.040802 seconds
+  Import took 0.047227 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004366 seconds.
+  path: Assets/OVRCameraRig222.prefab
+  artifactKey: Guid(5b90da9848de4df4aaeede08e8650694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OVRCameraRig222.prefab using Guid(5b90da9848de4df4aaeede08e8650694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b32d4b4b0a54be2ea9ecdafad17cabe') in 0.005563 seconds
+  Import took 0.010646 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013820 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.13 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Port 62754 is in use, cannot start service!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogFormat (UnityEngine.LogType,string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:134)
+UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogError (string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:164)
+UnityEditor.AddressableAssets.HostingServices.HttpHostingService:StartHostingService () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HttpHostingService.cs:212)
+UnityEditor.AddressableAssets.HostingServices.BaseHostingService:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:29)
+UnityEditor.AddressableAssets.HostingServices.HostingServicesManager:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HostingServicesManager.cs:273)
+UnityEditor.AddressableAssets.Settings.AddressableAssetSettings:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/Settings/AddressableAssetSettings.cs:1161)
+
+(Filename: Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs Line: 134)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.387 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.05 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 2812 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 143.0 MB.
+System memory in use after: 143.2 MB.
+
+Unloading 58 unused Assets to reduce memory usage. Loaded Objects now: 3449.
+Total: 3.132400 ms (FindLiveObjects: 0.332600 ms CreateObjectMapping: 0.171000 ms MarkObjects: 2.581400 ms  DeleteObjects: 0.045900 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Dynamic Assets
+  m_EditorClassIdentifier: 
+  m_GroupName: Dynamic Assets
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 4e7146fb5615c4387bd80da8f6d7fc93
+  m_SerializeEntries:
+  - m_GUID: 5d1aba172df524e65920f838292e3572
+    m_Address: Assets/Prefabs/Dynamic Cube.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dynamic Asset
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 94d601b755f94ba4e8eba54a4d8d1616
+    m_Address: Assets/Prefabs/Dynamic Cube 2.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dynamic Asset
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 2139f3ca334774618a62e51fa52f3efd, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 76247381a17c14d24972dc22bedd044c, type: 2}
+    - {fileID: 11400000, guid: aa79fd73416b54d4982e625c8dd3c0ed, type: 2}
