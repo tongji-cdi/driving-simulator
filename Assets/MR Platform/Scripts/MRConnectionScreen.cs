@@ -94,23 +94,26 @@ namespace MRPlatform
         }
 
         public void HideAllScreens() {
-            homeAlpha = 0f;
-            homeScreen.blocksRaycasts = false;
-            homeScreen.interactable = false;
+            // homeAlpha = 0f;
+            // homeScreen.blocksRaycasts = false;
+            // homeScreen.interactable = false;
 
-            serverAlpha = 0f;
-            serverScreen.blocksRaycasts = false;
-            serverScreen.interactable = false;
+            // serverAlpha = 0f;
+            // serverScreen.blocksRaycasts = false;
+            // serverScreen.interactable = false;
 
-            clientAlpha = 0f;
-            clientScreen.blocksRaycasts = false;
-            clientScreen.interactable = false;
+            // clientAlpha = 0f;
+            // clientScreen.blocksRaycasts = false;
+            // clientScreen.interactable = false;
 
-            background.CrossFadeAlpha(0f, 0.5f, false);
+            // background.CrossFadeAlpha(0f, 0.5f, false);
+
+            // set canvas to inactive for succuessful VR raycasting 
+            this.gameObject.SetActive(false);
 
             //change input module for vr input
             GameObject.Find("MR EventSystem").transform.GetComponent<InputSystemUIInputModule>().enabled = false;
-            GameObject.Find("MR EventSystem").transform.GetComponent<MRInputModule>().enabled = true;
+            GameObject.Find("MR EventSystem").transform.GetComponent<OVRInputModule2>().enabled = true;
 
         }
 

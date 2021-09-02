@@ -10,10 +10,6 @@ ANY KIND, either express or implied. See the License for the specific language g
 permissions and limitations under the License.
 ************************************************************************************/
 
-/************************************************************************************
-����oculus SDK �ṩ�� OVRInputModule �����޸ġ�
-
-************************************************************************************/
 using System;
 using System.Collections.Generic;
 using MRPlatform;
@@ -23,10 +19,10 @@ namespace UnityEngine.EventSystems
     /// <summary>
     /// VR extension of PointerInputModule which supports gaze and controller pointing.
     /// </summary>
-    public class MRInputModule : PointerInputModule
+    public class OVRInputModule2 : PointerInputModule
     {
 
-        public MRScreenInput m_MRScreenInput;
+        public  MRScreenInput m_MRScreenInput;
 
         [Tooltip("Object which points with Z axis. E.g. CentreEyeAnchor from OVRCameraRig")]
         public Transform rayTransform;
@@ -92,7 +88,7 @@ namespace UnityEngine.EventSystems
         private Vector2 m_LastMousePosition;
         private Vector2 m_MousePosition;
 
-        protected MRInputModule()
+        protected OVRInputModule2()
         {}
 
 #if UNITY_EDITOR
@@ -327,7 +323,7 @@ namespace UnityEngine.EventSystems
 
             //Debug.Log("currentOverGo: " + pointerEvent.pointerCurrentRaycast.gameObject);
 
-            // if(m_MRScreenInput != null)
+            if(m_MRScreenInput)
             {
                 if (m_MRScreenInput.PressedThisFrame())
                 {
@@ -416,9 +412,8 @@ namespace UnityEngine.EventSystems
                         HandlePointerExitAndEnter(pointerEvent, null);
                         HandlePointerExitAndEnter(pointerEvent, currentOverGo);
                     }
-                }
+                }                
             }
-
 
 
             // PointerDown notification
@@ -565,18 +560,21 @@ namespace UnityEngine.EventSystems
         {
 
             //ProcessMRScreenEvent();
-            if (m_MRScreenInput)
+            if(m_MRScreenInput)
             {
                 if (m_MRScreenInput.PressedThisFrame())
                 {
                     Debug.Log("m_MRScreenInput PressedThisFrame: " + m_MRScreenInput.PressedThisFrame());
                 }
 
-                if (m_MRScreenInput.ReleasedThisFrame())
+                if(m_MRScreenInput.ReleasedThisFrame())
                 {
                     Debug.Log("m_MRScreenInput ReleasedThisFrame: " + m_MRScreenInput.ReleasedThisFrame());
                 }
             }
+
+
+
            
 
 
@@ -954,6 +952,8 @@ namespace UnityEngine.EventSystems
         {
             Vector2 originalPosition = pointerEvent.position;
             bool moving = IsPointerMoving(pointerEvent);
+
+            Debug.Log("moving: " + pointerEvent.position.x);
             if (moving && pointerEvent.pointerDrag != null
                 && !pointerEvent.dragging
                 && ShouldStartDrag(pointerEvent))
