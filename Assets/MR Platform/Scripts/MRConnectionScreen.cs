@@ -113,7 +113,7 @@ namespace MRPlatform
 
             //change input module for vr input
             GameObject.Find("MR EventSystem").transform.GetComponent<InputSystemUIInputModule>().enabled = false;
-            GameObject.Find("MR EventSystem").transform.GetComponent<OVRInputModule2>().enabled = true;
+            GameObject.Find("MR EventSystem").transform.GetComponent<MRInputModule>().enabled = true;
 
         }
 

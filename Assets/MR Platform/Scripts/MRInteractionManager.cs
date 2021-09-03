@@ -12,7 +12,7 @@ namespace MRPlatform
         public Transform m_rightHandAnchor;
 
         [HideInInspector]
-        public OVRInputModule2 m_MRInputModule;
+        public MRInputModule m_MRInputModule;
 
         private UIManagaer m_UIManager;
         public Camera m_OVRCamera;
@@ -20,7 +20,7 @@ namespace MRPlatform
 
         private void Start()
         {
-            m_MRInputModule = FindObjectOfType<OVRInputModule2>();
+            m_MRInputModule = FindObjectOfType<MRInputModule>();
             m_MRInputModule.rayTransform = m_rightHandAnchor;
             m_MRInputModule.m_Cursor = transform.Find("LaserPointer").GetComponent<OVRCursor>();
 
