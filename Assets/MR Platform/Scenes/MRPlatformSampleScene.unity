@@ -135,7 +135,7 @@ GameObject:
   m_Layer: 0
   m_Name: '**MRPlatform**'
   m_TagString: Untagged
-  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -488,6 +488,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 376215582499559315, guid: a992956b557984c78abd73aac1d9a2ed, type: 3}
+      propertyPath: rigidBodyId
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 376215582499559325, guid: a992956b557984c78abd73aac1d9a2ed, type: 3}
       propertyPath: NetworkConfig.PlayerPrefabHash
       value: Unity.Multiplayer.MLAPI.Runtime MLAPI.Configuration.NullableBoolSerializable
@@ -562,7 +566,7 @@ GameObject:
   m_Layer: 0
   m_Name: '**Project Content**'
   m_TagString: Untagged
-  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -2205,6 +2209,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 989171785, guid: 38e6b96b64c75494d935894e5fd838b4, type: 3}
+      propertyPath: hmdID
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 989171785, guid: 38e6b96b64c75494d935894e5fd838b4, type: 3}
+      propertyPath: address
+      value: 192.168.1.5
+      objectReference: {fileID: 0}
     - target: {fileID: 66066336309153731, guid: 38e6b96b64c75494d935894e5fd838b4, type: 3}
       propertyPath: m_Layer
       value: 5
@@ -2216,6 +2228,10 @@ PrefabInstance:
     - target: {fileID: 6419576624650100988, guid: 38e6b96b64c75494d935894e5fd838b4, type: 3}
       propertyPath: m_Name
       value: MR Platform Manager
+      objectReference: {fileID: 0}
+    - target: {fileID: 6621357785350290963, guid: 38e6b96b64c75494d935894e5fd838b4, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6969518773551824183, guid: 38e6b96b64c75494d935894e5fd838b4, type: 3}
       propertyPath: m_Layer

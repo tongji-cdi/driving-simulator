@@ -11,6 +11,7 @@ namespace MRPlatform {
     {
         // public CharacterController characterController;
         public OptitrackStreamingClient StreamingClient;
+
         public Int32 RigidBodyId;
         // public Transform oculusParentTransform;
         // public Transform oculusCameraRig;
@@ -44,6 +45,16 @@ namespace MRPlatform {
                     return;
                 }
             }
+
+            // Get HMD id from Network Manager
+            MRConnectionManager m_MRConnectionManager = GameObject.FindObjectOfType<MRConnectionManager>();
+            if(m_MRConnectionManager == null)
+            {
+                Debug.LogError( "Couldn't find Network Manager");
+            }else{
+                RigidBodyId = m_MRConnectionManager.rigidBodyId;
+            }
+
 
             // Cache a reference to the gameobject containing the HMD Camera.
             Camera hmdCamera = this.GetComponentInChildren<Camera>();

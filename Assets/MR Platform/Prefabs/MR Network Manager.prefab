@@ -59,6 +59,7 @@ MonoBehaviour:
     - MRPlatformSampleScenes
     - MRPlatformSampleScenes 1
     - MRPlatformSampleScene
+    - MRPlatformSampleScene 1
     AllowRuntimeSceneChanges: 0
     NetworkPrefabs:
     - Prefab: {fileID: 1457342066009398683, guid: ead2acc6c45c045e4b9215a3664c3dd8, type: 3}
