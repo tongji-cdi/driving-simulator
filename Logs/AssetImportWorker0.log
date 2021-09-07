@@ -15,12 +15,12 @@ C:/Users/Shauna/Desktop/mr-platform-0825
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60426
+53992
 Successfully changed project path to: C:/Users/Shauna/Desktop/mr-platform-0825
 C:/Users/Shauna/Desktop/mr-platform-0825
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 91.18 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 0.94 ms.
+Refreshing native plugins compatible for Editor in 102.33 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 1.03 ms.
 Initialize engine version: 2020.3.5f1c1 (548653c6c3de)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/2020.3.5f1c1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/Shauna/Desktop/mr-platform-0825/Assets
@@ -36,622 +36,71 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/2020.3.5f1c1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/2020.3.5f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/2020.3.5f1c1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56968
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56096
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/2020.3.5f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002481 seconds.
+Registered in 0.002344 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 72.26 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
+Refreshing native plugins compatible for Editor in 83.94 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.14 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.975 seconds
+- Completed reload, in  1.083 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.009834 seconds.
+Registered in 0.010509 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 77.47 ms, found 11 plugins.
+Refreshing native plugins compatible for Editor in 74.08 ms, found 11 plugins.
 Preloading 1 native plugins for Editor in 0.08 ms.
+Port 62754 is in use, cannot start service!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogFormat (UnityEngine.LogType,string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:134)
+UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogError (string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:164)
+UnityEditor.AddressableAssets.HostingServices.HttpHostingService:StartHostingService () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HttpHostingService.cs:212)
+UnityEditor.AddressableAssets.HostingServices.BaseHostingService:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:29)
+UnityEditor.AddressableAssets.HostingServices.HostingServicesManager:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HostingServicesManager.cs:273)
+UnityEditor.AddressableAssets.Settings.AddressableAssetSettings:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/Settings/AddressableAssetSettings.cs:1161)
+UnityEditor.AssetDatabase:LoadAssetAtPath<UnityEditor.AddressableAssets.Settings.AddressableAssetSettings> (string)
+UnityEditor.AddressableAssets.AddressableAssetSettingsDefaultObject:LoadSettingsObject () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/AddressableAssetSettingsDefaultObject.cs:62)
+UnityEditor.AddressableAssets.AddressableAssetSettingsDefaultObject:get_Settings () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/AddressableAssetSettingsDefaultObject.cs:114)
+UnityEditor.AddressableAssets.AddressableEditorInitialization:.cctor () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/AddressableEditorInitialization.cs:20)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs Line: 134)
+
 [XR] OculusXRPlugin: registering subsystems
 [XR] Unable to register display lifecyle provider: [1]
 [XR] Oculus Input lifecycle provider registered.
 [XR] Unable to register input lifecyle provider: [1]
 [XR] OVRP version 1.60.0
-Port 62754 is in use, cannot start service!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogFormat (UnityEngine.LogType,string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:134)
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogError (string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:164)
-UnityEditor.AddressableAssets.HostingServices.HttpHostingService:StartHostingService () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HttpHostingService.cs:212)
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:29)
-UnityEditor.AddressableAssets.HostingServices.HostingServicesManager:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HostingServicesManager.cs:273)
-UnityEditor.AddressableAssets.Settings.AddressableAssetSettings:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/Settings/AddressableAssetSettings.cs:1161)
-UnityEditor.AssetDatabase:LoadAssetAtPath<UnityEditor.AddressableAssets.Settings.AddressableAssetSettings> (string)
-UnityEditor.AddressableAssets.AddressableAssetSettingsDefaultObject:LoadSettingsObject () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/AddressableAssetSettingsDefaultObject.cs:62)
-UnityEditor.AddressableAssets.AddressableAssetSettingsDefaultObject:get_Settings () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/AddressableAssetSettingsDefaultObject.cs:114)
-UnityEditor.AddressableAssets.Settings.AddressableAssetSettings:RegisterWithAssetPostProcessor () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/Settings/AddressableAssetSettings.cs:40)
-
-(Filename: Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs Line: 134)
-
 Mono: successfully reloaded assembly
-- Completed reload, in  1.476 seconds
+- Completed reload, in  1.520 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 1.00 ms, found 11 plugins.
+Refreshing native plugins compatible for Editor in 0.96 ms, found 11 plugins.
 Preloading 1 native plugins for Editor in 0.08 ms.
 Unloading 2888 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 130.8 MB.
-System memory in use after: 130.9 MB.
+System memory in use before: 131.3 MB.
+System memory in use after: 131.3 MB.
 
-Unloading 65 unused Assets to reduce memory usage. Loaded Objects now: 3292.
-Total: 3.896100 ms (FindLiveObjects: 0.587800 ms CreateObjectMapping: 0.335800 ms MarkObjects: 2.843700 ms  DeleteObjects: 0.113500 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/body.fbx
-  artifactKey: Guid(56b8125ea42a5bc4298d18fc1d1dbf97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/body.fbx using Guid(56b8125ea42a5bc4298d18fc1d1dbf97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3132b56c0bcac50991090d8694325fe6') in 0.741719 seconds
-  Import took 0.747110 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000185 seconds.
-  path: Assets/head.fbx
-  artifactKey: Guid(f4bcebc88c4a74243a690913e410d6d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/head.fbx using Guid(f4bcebc88c4a74243a690913e410d6d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2a4e58ad6d9ef9b88bdf783b532c5d5') in 0.046109 seconds
-  Import took 0.050897 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000259 seconds.
-  path: Assets/菜篮子机器人0707.fbx
-  artifactKey: Guid(73450fdc2e03220458674a3451ec82a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/菜篮子机器人0707.fbx using Guid(73450fdc2e03220458674a3451ec82a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '719dca65a9974ba1dadc590977a8aaf8') in 0.143795 seconds
-  Import took 0.148925 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/vegetables2.FBX
-  artifactKey: Guid(2dd88209e2f0bfe4d9206a4a2963aad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/vegetables2.FBX using Guid(2dd88209e2f0bfe4d9206a4a2963aad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd3ad2935af6d9ce9265e9ec13cc374d') in 0.453648 seconds
-  Import took 0.459585 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000239 seconds.
-  path: Assets/OVRCameraRig222.prefab
-  artifactKey: Guid(5b90da9848de4df4aaeede08e8650694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OVRCameraRig222.prefab using Guid(5b90da9848de4df4aaeede08e8650694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f264439cf8a1427b4a89ef6d9ba3a4b') in 0.022935 seconds
-  Import took 0.028249 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.223076 seconds.
-  path: Assets/AddressableAssetsData/AddressableAssetSettings.asset
-  artifactKey: Guid(2139f3ca334774618a62e51fa52f3efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AddressableAssetsData/AddressableAssetSettings.asset using Guid(2139f3ca334774618a62e51fa52f3efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Port 62754 is in use, cannot start service!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogFormat (UnityEngine.LogType,string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:134)
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogError (string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:164)
-UnityEditor.AddressableAssets.HostingServices.HttpHostingService:StartHostingService () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HttpHostingService.cs:212)
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:29)
-UnityEditor.AddressableAssets.HostingServices.HostingServicesManager:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HostingServicesManager.cs:273)
-UnityEditor.AddressableAssets.Settings.AddressableAssetSettings:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/Settings/AddressableAssetSettings.cs:1161)
-
-(Filename: Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs Line: 134)
-
- -> (artifact id: 'cc49bbc8723019ba1a14fe61ab97735a') in 0.016762 seconds
-  Import took 0.022147 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000400 seconds.
-  path: Assets/AddressableAssetsData/DefaultObject.asset
-  artifactKey: Guid(c9fefa1948cc7466aa892328269fd7cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AddressableAssetsData/DefaultObject.asset using Guid(c9fefa1948cc7466aa892328269fd7cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4e972810e58f31e943c82a1fc7d4ccd') in 0.007079 seconds
-  Import took 0.012527 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.949836 seconds.
-  path: Assets/Materials/DemoDynamicAsset.mat
-  artifactKey: Guid(a136b42bcf35f472f88e034683292fee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/DemoDynamicAsset.mat using Guid(a136b42bcf35f472f88e034683292fee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c50409984acc0c9427be021f06dca332') in 0.013667 seconds
-  Import took 0.019694 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000322 seconds.
-  path: Assets/Materials/Player.mat
-  artifactKey: Guid(7ca322da2e20a41debf25b785007c197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Player.mat using Guid(7ca322da2e20a41debf25b785007c197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd72215f2676e1e0af8bea66d6061e7f4') in 0.020145 seconds
-  Import took 0.026929 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/Materials/DemoDynamicCube2.mat
-  artifactKey: Guid(dd484ff541422de45bf3069a2c8f5ea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/DemoDynamicCube2.mat using Guid(dd484ff541422de45bf3069a2c8f5ea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fc8a67ca34d829072766260f7e2e841') in 0.018931 seconds
-  Import took 0.024925 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000214 seconds.
-  path: Assets/Materials/PlayerEye.mat
-  artifactKey: Guid(2bec1c8739acd4ab0842a9438a928692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/PlayerEye.mat using Guid(2bec1c8739acd4ab0842a9438a928692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fbc2b8c3372848d882f3a2fbc315ccb') in 0.018855 seconds
-  Import took 0.025592 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000305 seconds.
-  path: Assets/Materials/DemoDynamicCube2.mat
-  artifactKey: Guid(dd484ff541422de45bf3069a2c8f5ea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/DemoDynamicCube2.mat using Guid(dd484ff541422de45bf3069a2c8f5ea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fc8a67ca34d829072766260f7e2e841') in 0.025744 seconds
-  Import took 0.030808 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.848400 seconds.
-  path: Assets/MR Platform/Scenes/MRPlatformSampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MR Platform/Scenes/MRPlatformSampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4d70f99a62c0ade4e8b279259d4683f') in 0.006661 seconds
-  Import took 0.012333 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.061196 seconds.
-  path: Assets/MR Platform/Scenes/MRPlatformSampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MR Platform/Scenes/MRPlatformSampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4d70f99a62c0ade4e8b279259d4683f') in 0.003685 seconds
-  Import took 0.009806 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.593480 seconds.
-  path: Assets/MR Platform/Scenes/New Scene.unity
-  artifactKey: Guid(e606f20c517b52049a5a6c71c4708642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MR Platform/Scenes/New Scene.unity using Guid(e606f20c517b52049a5a6c71c4708642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b98974adec8c3340661d7608389dc291') in 0.011183 seconds
-  Import took 0.017011 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.337293 seconds.
-  path: Assets/MR Platform/Scenes/MRPlatformSampleScene 1.unity
-  artifactKey: Guid(b38a3c9446021ac4e80b3af2909a6133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MR Platform/Scenes/MRPlatformSampleScene 1.unity using Guid(b38a3c9446021ac4e80b3af2909a6133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'befcbd922b7c43a92e1c7f199fb502a9') in 0.008297 seconds
-  Import took 0.013823 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 99.265712 seconds.
-  path: Assets/MR Platform/Scenes/MRPlatformSampleScene 1.unity
-  artifactKey: Guid(b38a3c9446021ac4e80b3af2909a6133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MR Platform/Scenes/MRPlatformSampleScene 1.unity using Guid(b38a3c9446021ac4e80b3af2909a6133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9e866cf7226baf6566d2ea9df38e819') in 0.004361 seconds
-  Import took 0.012141 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 18.440559 seconds.
-  path: Assets/MR Platform/Scenes/MRPlatformSampleScene 1.unity
-  artifactKey: Guid(b38a3c9446021ac4e80b3af2909a6133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MR Platform/Scenes/MRPlatformSampleScene 1.unity using Guid(b38a3c9446021ac4e80b3af2909a6133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92a7b765f290c48cfaca91e4e0db37d3') in 0.005504 seconds
-  Import took 0.019169 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 374.960201 seconds.
-  path: Assets/MR Platform/Prefabs/Dynamic Cube 2.prefab
-  artifactKey: Guid(94d601b755f94ba4e8eba54a4d8d1616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MR Platform/Prefabs/Dynamic Cube 2.prefab using Guid(94d601b755f94ba4e8eba54a4d8d1616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e902c2aff38d30092760a0bcdac2aeab') in 0.028817 seconds
-  Import took 0.035762 seconds .
+Unloading 65 unused Assets to reduce memory usage. Loaded Objects now: 3296.
+Total: 2.897200 ms (FindLiveObjects: 0.301200 ms CreateObjectMapping: 0.144400 ms MarkObjects: 2.312600 ms  DeleteObjects: 0.137000 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.808409 seconds.
+Registered in 0.010584 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.46 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
-Port 62754 is in use, cannot start service!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogFormat (UnityEngine.LogType,string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:134)
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogError (string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:164)
-UnityEditor.AddressableAssets.HostingServices.HttpHostingService:StartHostingService () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HttpHostingService.cs:212)
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:29)
-UnityEditor.AddressableAssets.HostingServices.HostingServicesManager:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HostingServicesManager.cs:273)
-UnityEditor.AddressableAssets.Settings.AddressableAssetSettings:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/Settings/AddressableAssetSettings.cs:1161)
-UnityEditor.AssetDatabase:LoadAssetAtPath<UnityEditor.AddressableAssets.Settings.AddressableAssetSettings> (string)
-UnityEditor.AddressableAssets.AddressableAssetSettingsDefaultObject:LoadSettingsObject () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/AddressableAssetSettingsDefaultObject.cs:62)
-UnityEditor.AddressableAssets.AddressableAssetSettingsDefaultObject:get_Settings () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/AddressableAssetSettingsDefaultObject.cs:114)
-UnityEditor.AddressableAssets.Settings.AddressableAssetSettings:RegisterWithAssetPostProcessor () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/Settings/AddressableAssetSettings.cs:40)
-
-(Filename: Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs Line: 134)
-
-Port 62754 is in use, cannot start service!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogFormat (UnityEngine.LogType,string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:134)
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogError (string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:164)
-UnityEditor.AddressableAssets.HostingServices.HttpHostingService:StartHostingService () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HttpHostingService.cs:212)
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:29)
-UnityEditor.AddressableAssets.HostingServices.HostingServicesManager:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HostingServicesManager.cs:273)
-UnityEditor.AddressableAssets.Settings.AddressableAssetSettings:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/Settings/AddressableAssetSettings.cs:1161)
-
-(Filename: Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs Line: 134)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.752 seconds
-Platform modules already initialized, skipping
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 1.76 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 0.13 ms.
-Unloading 2804 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 126.3 MB.
-System memory in use after: 126.5 MB.
-
-Unloading 60 unused Assets to reduce memory usage. Loaded Objects now: 3340.
-Total: 4.110600 ms (FindLiveObjects: 0.718900 ms CreateObjectMapping: 0.381300 ms MarkObjects: 2.917400 ms  DeleteObjects: 0.091200 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 44.253998 seconds.
-  path: Assets/MR Platform/Scripts/MRCameraRig.cs
-  artifactKey: Guid(bdb2b5dfe85c8b74bbcdf51fccbed99d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MR Platform/Scripts/MRCameraRig.cs using Guid(bdb2b5dfe85c8b74bbcdf51fccbed99d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a15db19d1925bae3550f5d70bed47c05') in 0.014978 seconds
-  Import took 0.020506 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000258 seconds.
-  path: Assets/MR Platform/Scripts/MRDemoDynamicCube.cs
-  artifactKey: Guid(75bcf4600a4a246c683ad2cb26f6e178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MR Platform/Scripts/MRDemoDynamicCube.cs using Guid(75bcf4600a4a246c683ad2cb26f6e178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95ae97fb0fc07831f38a5fda2c9d8df0') in 0.008372 seconds
-  Import took 0.013593 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.014068 seconds.
-  path: Assets/MR Platform/Prefabs/Dynamic Cube.prefab
-  artifactKey: Guid(5d1aba172df524e65920f838292e3572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MR Platform/Prefabs/Dynamic Cube.prefab using Guid(5d1aba172df524e65920f838292e3572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67dfc3eb53c5ad9bfefd5205ccfbedfb') in 0.076401 seconds
-  Import took 0.082324 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.920011 seconds.
-  path: Assets/OptiTrack/Prefabs
-  artifactKey: Guid(abc699d404e44424b9e304488decf59e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OptiTrack/Prefabs using Guid(abc699d404e44424b9e304488decf59e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e139de5db7c6b24b56d28b5dbee78b05') in 0.011686 seconds
-  Import took 0.018000 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.956385 seconds.
-  path: Assets/OptiTrack/Prefabs/HMD - OptiTrack.prefab
-  artifactKey: Guid(3dce9c79dbdbdfc419560a29a65e66be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OptiTrack/Prefabs/HMD - OptiTrack.prefab using Guid(3dce9c79dbdbdfc419560a29a65e66be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66bd1830ce00d4d3528707667d5ea569') in 0.009866 seconds
-  Import took 0.016210 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.514289 seconds.
-  path: Assets/OptiTrack/Prefabs/Client - OptiTrack.prefab
-  artifactKey: Guid(9a32d482689653847b22155fb3096f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OptiTrack/Prefabs/Client - OptiTrack.prefab using Guid(9a32d482689653847b22155fb3096f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c12f5ae30cc5b6e7b1e8acf5aa66843') in 0.012296 seconds
-  Import took 0.018751 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002420 seconds.
-  path: Assets/OptiTrack/Prefabs/Client - OptiTrack.prefab
-  artifactKey: Guid(9a32d482689653847b22155fb3096f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OptiTrack/Prefabs/Client - OptiTrack.prefab using Guid(9a32d482689653847b22155fb3096f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c12f5ae30cc5b6e7b1e8acf5aa66843') in 0.005279 seconds
-  Import took 0.011383 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 19.025895 seconds.
-  path: Assets/OptiTrack/Scripts/OptitrackRigidBody.cs
-  artifactKey: Guid(f77bc200897df4f4483b478b598b0c51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OptiTrack/Scripts/OptitrackRigidBody.cs using Guid(f77bc200897df4f4483b478b598b0c51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61863db2bd17fd593b2f0f02e4cf71c0') in 0.013887 seconds
-  Import took 0.021607 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001134 seconds.
-  path: Assets/OptiTrack/Scripts/OptitrackRigidBody.cs
-  artifactKey: Guid(f77bc200897df4f4483b478b598b0c51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OptiTrack/Scripts/OptitrackRigidBody.cs using Guid(f77bc200897df4f4483b478b598b0c51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61863db2bd17fd593b2f0f02e4cf71c0') in 0.003262 seconds
-  Import took 0.009368 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.209559 seconds.
-  path: Assets/OptiTrack/Scripts/OptitrackSkeletonAnimator.cs
-  artifactKey: Guid(6226842a13d56fc4b9f6ffc41f7ef0ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OptiTrack/Scripts/OptitrackSkeletonAnimator.cs using Guid(6226842a13d56fc4b9f6ffc41f7ef0ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3eeef54c5e55ae408aa0e66eb611e1f0') in 0.007969 seconds
-  Import took 0.013361 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003210 seconds.
-  path: Assets/OptiTrack/Scripts/OptitrackSkeletonAnimator.cs
-  artifactKey: Guid(6226842a13d56fc4b9f6ffc41f7ef0ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OptiTrack/Scripts/OptitrackSkeletonAnimator.cs using Guid(6226842a13d56fc4b9f6ffc41f7ef0ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3eeef54c5e55ae408aa0e66eb611e1f0') in 0.004458 seconds
-  Import took 0.010206 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.405304 seconds.
-  path: Assets/OptiTrack/Scripts/OptitrackStreamingClient.cs
-  artifactKey: Guid(a331805347588fe4a8161c8875d24396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OptiTrack/Scripts/OptitrackStreamingClient.cs using Guid(a331805347588fe4a8161c8875d24396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f8bc2b1d4673b4e8afc423a0044b014') in 0.007859 seconds
-  Import took 0.014030 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.018753 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.22 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 0.60 ms.
-SocketException: Only one usage of each socket address (protocol/network address/port) is normally permitted.
-  at System.Net.Sockets.Socket.Bind (System.Net.EndPoint localEP) [0x00043] in <aa976c2104104b7ca9e1785715722c9d>:0 
-  at System.Net.EndPointListener..ctor (System.Net.HttpListener listener, System.Net.IPAddress addr, System.Int32 port, System.Boolean secure) [0x00047] in <aa976c2104104b7ca9e1785715722c9d>:0 
-  at System.Net.EndPointManager.GetEPListener (System.String host, System.Int32 port, System.Net.HttpListener listener, System.Boolean secure) [0x0009d] in <aa976c2104104b7ca9e1785715722c9d>:0 
-  at System.Net.EndPointManager.AddPrefixInternal (System.String p, System.Net.HttpListener listener) [0x0005e] in <aa976c2104104b7ca9e1785715722c9d>:0 
-  at System.Net.EndPointManager.AddListener (System.Net.HttpListener listener) [0x0009c] in <aa976c2104104b7ca9e1785715722c9d>:0 
-  at System.Net.HttpListener.Start () [0x0000f] in <aa976c2104104b7ca9e1785715722c9d>:0 
-  at UnityEditor.AddressableAssets.HostingServices.HttpHostingService.StartHostingService () [0x0006a] in C:\Users\Shauna\Desktop\mr-platform-0825\Library\PackageCache\com.unity.addressables@1.18.2\Editor\HostingServices\HttpHostingService.cs:223 
-  at UnityEditor.AddressableAssets.HostingServices.BaseHostingService.OnEnable () [0x00032] in C:\Users\Shauna\Desktop\mr-platform-0825\Library\PackageCache\com.unity.addressables@1.18.2\Editor\HostingServices\BaseHostingService.cs:29 
-  at UnityEditor.AddressableAssets.HostingServices.HostingServicesManager.OnEnable () [0x000b3] in C:\Users\Shauna\Desktop\mr-platform-0825\Library\PackageCache\com.unity.addressables@1.18.2\Editor\HostingServices\HostingServicesManager.cs:273 
-  at UnityEditor.AddressableAssets.Settings.AddressableAssetSettings.OnEnable () [0x00018] in C:\Users\Shauna\Desktop\mr-platform-0825\Library\PackageCache\com.unity.addressables@1.18.2\Editor\Settings\AddressableAssetSettings.cs:1161 
-
-Port 62754 is in use, cannot start service!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogFormat (UnityEngine.LogType,string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:134)
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogError (string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:164)
-UnityEditor.AddressableAssets.HostingServices.HttpHostingService:StartHostingService () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HttpHostingService.cs:212)
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:29)
-UnityEditor.AddressableAssets.HostingServices.HostingServicesManager:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HostingServicesManager.cs:273)
-UnityEditor.AddressableAssets.Settings.AddressableAssetSettings:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/Settings/AddressableAssetSettings.cs:1161)
-
-(Filename: Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs Line: 134)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.190 seconds
-Platform modules already initialized, skipping
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 2.02 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 0.11 ms.
-Unloading 2802 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 126.3 MB.
-System memory in use after: 126.6 MB.
-
-Unloading 58 unused Assets to reduce memory usage. Loaded Objects now: 3345.
-Total: 3.522400 ms (FindLiveObjects: 0.363200 ms CreateObjectMapping: 0.191600 ms MarkObjects: 2.921200 ms  DeleteObjects: 0.044900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.012099 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.29 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 0.13 ms.
-Started. Listening on port 62754. Hosting 1 folder.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogFormat (UnityEngine.LogType,string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:134)
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:Log (string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:144)
-UnityEditor.AddressableAssets.HostingServices.HttpHostingService:StartHostingService () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HttpHostingService.cs:228)
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:29)
-UnityEditor.AddressableAssets.HostingServices.HostingServicesManager:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HostingServicesManager.cs:273)
-UnityEditor.AddressableAssets.Settings.AddressableAssetSettings:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/Settings/AddressableAssetSettings.cs:1161)
-
-(Filename: Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs Line: 134)
-
-Hosting : HostedData/StandaloneWindows64
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogFormat (UnityEngine.LogType,string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:134)
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:Log (string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:144)
-UnityEditor.AddressableAssets.HostingServices.HttpHostingService:StartHostingService () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HttpHostingService.cs:231)
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:29)
-UnityEditor.AddressableAssets.HostingServices.HostingServicesManager:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HostingServicesManager.cs:273)
-UnityEditor.AddressableAssets.Settings.AddressableAssetSettings:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/Settings/AddressableAssetSettings.cs:1161)
-
-(Filename: Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs Line: 134)
-
-Port 62754 is in use, cannot start service!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogFormat (UnityEngine.LogType,string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:134)
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogError (string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:164)
-UnityEditor.AddressableAssets.HostingServices.HttpHostingService:StartHostingService () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HttpHostingService.cs:212)
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:29)
-UnityEditor.AddressableAssets.HostingServices.HostingServicesManager:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HostingServicesManager.cs:273)
-UnityEditor.AddressableAssets.Settings.AddressableAssetSettings:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/Settings/AddressableAssetSettings.cs:1161)
-
-(Filename: Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs Line: 134)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.964 seconds
-Platform modules already initialized, skipping
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 1.07 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Unloading 2802 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 126.4 MB.
-System memory in use after: 126.6 MB.
-
-Unloading 58 unused Assets to reduce memory usage. Loaded Objects now: 3349.
-Total: 3.764800 ms (FindLiveObjects: 0.815500 ms CreateObjectMapping: 0.284500 ms MarkObjects: 2.610800 ms  DeleteObjects: 0.051800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010212 seconds.
-Begin MonoManager ReloadAssembly
-Stopping
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogFormat (UnityEngine.LogType,string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:134)
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:Log (string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:144)
-UnityEditor.AddressableAssets.HostingServices.HttpHostingService:StopHostingService () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HttpHostingService.cs:262)
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:OnDisable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:36)
-UnityEditor.AddressableAssets.HostingServices.HostingServicesManager:OnDisable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HostingServicesManager.cs:293)
-UnityEditor.AddressableAssets.Settings.AddressableAssetSettings:OnDisable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/Settings/AddressableAssetSettings.cs:1166)
-
-(Filename: Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs Line: 134)
-
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.06 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
-Started. Listening on port 62754. Hosting 1 folder.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogFormat (UnityEngine.LogType,string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:134)
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:Log (string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:144)
-UnityEditor.AddressableAssets.HostingServices.HttpHostingService:StartHostingService () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HttpHostingService.cs:228)
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:29)
-UnityEditor.AddressableAssets.HostingServices.HostingServicesManager:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HostingServicesManager.cs:273)
-UnityEditor.AddressableAssets.Settings.AddressableAssetSettings:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/Settings/AddressableAssetSettings.cs:1161)
-
-(Filename: Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs Line: 134)
-
-Hosting : HostedData/StandaloneWindows64
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogFormat (UnityEngine.LogType,string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:134)
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:Log (string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:144)
-UnityEditor.AddressableAssets.HostingServices.HttpHostingService:StartHostingService () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HttpHostingService.cs:231)
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:29)
-UnityEditor.AddressableAssets.HostingServices.HostingServicesManager:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HostingServicesManager.cs:273)
-UnityEditor.AddressableAssets.Settings.AddressableAssetSettings:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/Settings/AddressableAssetSettings.cs:1161)
-
-(Filename: Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs Line: 134)
-
-Port 62754 is in use, cannot start service!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogFormat (UnityEngine.LogType,string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:134)
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogError (string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:164)
-UnityEditor.AddressableAssets.HostingServices.HttpHostingService:StartHostingService () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HttpHostingService.cs:212)
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:29)
-UnityEditor.AddressableAssets.HostingServices.HostingServicesManager:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HostingServicesManager.cs:273)
-UnityEditor.AddressableAssets.Settings.AddressableAssetSettings:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/Settings/AddressableAssetSettings.cs:1161)
-
-(Filename: Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs Line: 134)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.060 seconds
-Platform modules already initialized, skipping
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 1.60 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 0.11 ms.
-Unloading 2802 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 126.4 MB.
-System memory in use after: 126.6 MB.
-
-Unloading 58 unused Assets to reduce memory usage. Loaded Objects now: 3353.
-Total: 3.983800 ms (FindLiveObjects: 0.769600 ms CreateObjectMapping: 0.283100 ms MarkObjects: 2.868500 ms  DeleteObjects: 0.061100 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 1288.029570 seconds.
-  path: Assets/MR Platform/Prefabs/FirstPersonPlayer 1.prefab
-  artifactKey: Guid(3aa13b53bad49d948979575a84180fb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MR Platform/Prefabs/FirstPersonPlayer 1.prefab using Guid(3aa13b53bad49d948979575a84180fb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd7d2cbb95bb6b47f607d95448748588') in 0.712120 seconds
-  Import took 0.720287 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 146.905028 seconds.
-  path: Assets/MR Platform/Editor/MRConnectionSelectorEditor.cs
-  artifactKey: Guid(2a92c81be441a074fb5ae1e5278d04d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MR Platform/Editor/MRConnectionSelectorEditor.cs using Guid(2a92c81be441a074fb5ae1e5278d04d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '483efc1aa95f64bcf43639450b1a6f03') in 0.008814 seconds
-  Import took 0.015511 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002711 seconds.
-  path: Assets/MR Platform/Editor/MRConnectionSelectorEditor.cs
-  artifactKey: Guid(2a92c81be441a074fb5ae1e5278d04d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MR Platform/Editor/MRConnectionSelectorEditor.cs using Guid(2a92c81be441a074fb5ae1e5278d04d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '483efc1aa95f64bcf43639450b1a6f03') in 0.003765 seconds
-  Import took 0.010094 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.011025 seconds.
-Begin MonoManager ReloadAssembly
-Stopping
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogFormat (UnityEngine.LogType,string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:134)
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:Log (string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:144)
-UnityEditor.AddressableAssets.HostingServices.HttpHostingService:StopHostingService () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HttpHostingService.cs:262)
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:OnDisable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:36)
-UnityEditor.AddressableAssets.HostingServices.HostingServicesManager:OnDisable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HostingServicesManager.cs:293)
-UnityEditor.AddressableAssets.Settings.AddressableAssetSettings:OnDisable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/Settings/AddressableAssetSettings.cs:1166)
-
-(Filename: Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs Line: 134)
-
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.13 ms, found 11 plugins.
+Refreshing native plugins compatible for Editor in 1.74 ms, found 11 plugins.
 Preloading 1 native plugins for Editor in 0.12 ms.
-Started. Listening on port 62754. Hosting 1 folder.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogFormat (UnityEngine.LogType,string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:134)
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:Log (string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:144)
-UnityEditor.AddressableAssets.HostingServices.HttpHostingService:StartHostingService () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HttpHostingService.cs:228)
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:29)
-UnityEditor.AddressableAssets.HostingServices.HostingServicesManager:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HostingServicesManager.cs:273)
-UnityEditor.AddressableAssets.Settings.AddressableAssetSettings:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/Settings/AddressableAssetSettings.cs:1161)
-
-(Filename: Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs Line: 134)
-
-Hosting : HostedData/StandaloneWindows64
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogFormat (UnityEngine.LogType,string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:134)
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:Log (string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:144)
-UnityEditor.AddressableAssets.HostingServices.HttpHostingService:StartHostingService () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HttpHostingService.cs:231)
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:29)
-UnityEditor.AddressableAssets.HostingServices.HostingServicesManager:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HostingServicesManager.cs:273)
-UnityEditor.AddressableAssets.Settings.AddressableAssetSettings:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/Settings/AddressableAssetSettings.cs:1161)
-
-(Filename: Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs Line: 134)
-
 Port 62754 is in use, cannot start service!
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
@@ -666,607 +115,61 @@ UnityEditor.AddressableAssets.Settings.AddressableAssetSettings:OnEnable () (at 
 (Filename: Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs Line: 134)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.955 seconds
+- Completed reload, in  1.598 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 2802 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 126.0 MB.
+System memory in use after: 126.2 MB.
+
+Unloading 58 unused Assets to reduce memory usage. Loaded Objects now: 3300.
+Total: 3.434200 ms (FindLiveObjects: 0.511700 ms CreateObjectMapping: 0.214600 ms MarkObjects: 2.650600 ms  DeleteObjects: 0.056100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014443 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.11 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Port 62754 is in use, cannot start service!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogFormat (UnityEngine.LogType,string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:134)
+UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogError (string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:164)
+UnityEditor.AddressableAssets.HostingServices.HttpHostingService:StartHostingService () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HttpHostingService.cs:212)
+UnityEditor.AddressableAssets.HostingServices.BaseHostingService:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:29)
+UnityEditor.AddressableAssets.HostingServices.HostingServicesManager:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HostingServicesManager.cs:273)
+UnityEditor.AddressableAssets.Settings.AddressableAssetSettings:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/Settings/AddressableAssetSettings.cs:1161)
+
+(Filename: Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs Line: 134)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.915 seconds
 Platform modules already initialized, skipping
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Refreshing native plugins compatible for Editor in 1.11 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Unloading 2802 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 141.5 MB.
-System memory in use after: 141.7 MB.
-
-Unloading 59 unused Assets to reduce memory usage. Loaded Objects now: 3362.
-Total: 3.054800 ms (FindLiveObjects: 0.314600 ms CreateObjectMapping: 0.153700 ms MarkObjects: 2.541600 ms  DeleteObjects: 0.043400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.017340 seconds.
-Begin MonoManager ReloadAssembly
-Stopping
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogFormat (UnityEngine.LogType,string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:134)
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:Log (string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:144)
-UnityEditor.AddressableAssets.HostingServices.HttpHostingService:StopHostingService () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HttpHostingService.cs:262)
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:OnDisable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:36)
-UnityEditor.AddressableAssets.HostingServices.HostingServicesManager:OnDisable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HostingServicesManager.cs:293)
-UnityEditor.AddressableAssets.Settings.AddressableAssetSettings:OnDisable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/Settings/AddressableAssetSettings.cs:1166)
-
-(Filename: Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs Line: 134)
-
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.41 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
-Started. Listening on port 62754. Hosting 1 folder.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogFormat (UnityEngine.LogType,string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:134)
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:Log (string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:144)
-UnityEditor.AddressableAssets.HostingServices.HttpHostingService:StartHostingService () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HttpHostingService.cs:228)
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:29)
-UnityEditor.AddressableAssets.HostingServices.HostingServicesManager:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HostingServicesManager.cs:273)
-UnityEditor.AddressableAssets.Settings.AddressableAssetSettings:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/Settings/AddressableAssetSettings.cs:1161)
-
-(Filename: Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs Line: 134)
-
-Hosting : HostedData/StandaloneWindows64
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogFormat (UnityEngine.LogType,string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:134)
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:Log (string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:144)
-UnityEditor.AddressableAssets.HostingServices.HttpHostingService:StartHostingService () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HttpHostingService.cs:231)
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:29)
-UnityEditor.AddressableAssets.HostingServices.HostingServicesManager:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HostingServicesManager.cs:273)
-UnityEditor.AddressableAssets.Settings.AddressableAssetSettings:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/Settings/AddressableAssetSettings.cs:1161)
-
-(Filename: Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs Line: 134)
-
-Port 62754 is in use, cannot start service!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogFormat (UnityEngine.LogType,string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:134)
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogError (string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:164)
-UnityEditor.AddressableAssets.HostingServices.HttpHostingService:StartHostingService () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HttpHostingService.cs:212)
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:29)
-UnityEditor.AddressableAssets.HostingServices.HostingServicesManager:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HostingServicesManager.cs:273)
-UnityEditor.AddressableAssets.Settings.AddressableAssetSettings:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/Settings/AddressableAssetSettings.cs:1161)
-
-(Filename: Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs Line: 134)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  3.008 seconds
-Platform modules already initialized, skipping
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 1.05 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Unloading 2802 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 141.5 MB.
-System memory in use after: 141.8 MB.
-
-Unloading 58 unused Assets to reduce memory usage. Loaded Objects now: 3366.
-Total: 3.771700 ms (FindLiveObjects: 0.383800 ms CreateObjectMapping: 0.175500 ms MarkObjects: 3.167700 ms  DeleteObjects: 0.042600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009925 seconds.
-Begin MonoManager ReloadAssembly
-Stopping
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogFormat (UnityEngine.LogType,string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:134)
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:Log (string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:144)
-UnityEditor.AddressableAssets.HostingServices.HttpHostingService:StopHostingService () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HttpHostingService.cs:262)
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:OnDisable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:36)
-UnityEditor.AddressableAssets.HostingServices.HostingServicesManager:OnDisable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HostingServicesManager.cs:293)
-UnityEditor.AddressableAssets.Settings.AddressableAssetSettings:OnDisable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/Settings/AddressableAssetSettings.cs:1166)
-
-(Filename: Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs Line: 134)
-
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.14 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
-Started. Listening on port 62754. Hosting 1 folder.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogFormat (UnityEngine.LogType,string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:134)
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:Log (string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:144)
-UnityEditor.AddressableAssets.HostingServices.HttpHostingService:StartHostingService () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HttpHostingService.cs:228)
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:29)
-UnityEditor.AddressableAssets.HostingServices.HostingServicesManager:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HostingServicesManager.cs:273)
-UnityEditor.AddressableAssets.Settings.AddressableAssetSettings:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/Settings/AddressableAssetSettings.cs:1161)
-
-(Filename: Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs Line: 134)
-
-Hosting : HostedData/StandaloneWindows64
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogFormat (UnityEngine.LogType,string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:134)
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:Log (string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:144)
-UnityEditor.AddressableAssets.HostingServices.HttpHostingService:StartHostingService () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HttpHostingService.cs:231)
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:29)
-UnityEditor.AddressableAssets.HostingServices.HostingServicesManager:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HostingServicesManager.cs:273)
-UnityEditor.AddressableAssets.Settings.AddressableAssetSettings:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/Settings/AddressableAssetSettings.cs:1161)
-
-(Filename: Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs Line: 134)
-
-Port 62754 is in use, cannot start service!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogFormat (UnityEngine.LogType,string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:134)
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogError (string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:164)
-UnityEditor.AddressableAssets.HostingServices.HttpHostingService:StartHostingService () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HttpHostingService.cs:212)
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:29)
-UnityEditor.AddressableAssets.HostingServices.HostingServicesManager:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HostingServicesManager.cs:273)
-UnityEditor.AddressableAssets.Settings.AddressableAssetSettings:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/Settings/AddressableAssetSettings.cs:1161)
-
-(Filename: Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs Line: 134)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.789 seconds
-Platform modules already initialized, skipping
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 1.05 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Unloading 2802 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 141.5 MB.
-System memory in use after: 141.8 MB.
-
-Unloading 58 unused Assets to reduce memory usage. Loaded Objects now: 3370.
-Total: 3.368800 ms (FindLiveObjects: 0.341200 ms CreateObjectMapping: 0.179800 ms MarkObjects: 2.803900 ms  DeleteObjects: 0.042400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.020213 seconds.
-Begin MonoManager ReloadAssembly
-Stopping
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogFormat (UnityEngine.LogType,string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:134)
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:Log (string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:144)
-UnityEditor.AddressableAssets.HostingServices.HttpHostingService:StopHostingService () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HttpHostingService.cs:262)
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:OnDisable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:36)
-UnityEditor.AddressableAssets.HostingServices.HostingServicesManager:OnDisable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HostingServicesManager.cs:293)
-UnityEditor.AddressableAssets.Settings.AddressableAssetSettings:OnDisable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/Settings/AddressableAssetSettings.cs:1166)
-
-(Filename: Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs Line: 134)
-
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 4.42 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 0.16 ms.
-Started. Listening on port 62754. Hosting 1 folder.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogFormat (UnityEngine.LogType,string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:134)
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:Log (string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:144)
-UnityEditor.AddressableAssets.HostingServices.HttpHostingService:StartHostingService () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HttpHostingService.cs:228)
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:29)
-UnityEditor.AddressableAssets.HostingServices.HostingServicesManager:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HostingServicesManager.cs:273)
-UnityEditor.AddressableAssets.Settings.AddressableAssetSettings:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/Settings/AddressableAssetSettings.cs:1161)
-
-(Filename: Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs Line: 134)
-
-Hosting : HostedData/StandaloneWindows64
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogFormat (UnityEngine.LogType,string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:134)
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:Log (string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:144)
-UnityEditor.AddressableAssets.HostingServices.HttpHostingService:StartHostingService () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HttpHostingService.cs:231)
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:29)
-UnityEditor.AddressableAssets.HostingServices.HostingServicesManager:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HostingServicesManager.cs:273)
-UnityEditor.AddressableAssets.Settings.AddressableAssetSettings:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/Settings/AddressableAssetSettings.cs:1161)
-
-(Filename: Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs Line: 134)
-
-Port 62754 is in use, cannot start service!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogFormat (UnityEngine.LogType,string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:134)
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogError (string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:164)
-UnityEditor.AddressableAssets.HostingServices.HttpHostingService:StartHostingService () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HttpHostingService.cs:212)
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:29)
-UnityEditor.AddressableAssets.HostingServices.HostingServicesManager:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HostingServicesManager.cs:273)
-UnityEditor.AddressableAssets.Settings.AddressableAssetSettings:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/Settings/AddressableAssetSettings.cs:1161)
-
-(Filename: Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs Line: 134)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.254 seconds
-Platform modules already initialized, skipping
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 6.70 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
-Unloading 2802 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 141.6 MB.
-System memory in use after: 141.8 MB.
-
-Unloading 58 unused Assets to reduce memory usage. Loaded Objects now: 3374.
-Total: 7.273900 ms (FindLiveObjects: 2.610200 ms CreateObjectMapping: 0.260100 ms MarkObjects: 4.319400 ms  DeleteObjects: 0.082300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.011022 seconds.
-Begin MonoManager ReloadAssembly
-Stopping
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogFormat (UnityEngine.LogType,string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:134)
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:Log (string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:144)
-UnityEditor.AddressableAssets.HostingServices.HttpHostingService:StopHostingService () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HttpHostingService.cs:262)
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:OnDisable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:36)
-UnityEditor.AddressableAssets.HostingServices.HostingServicesManager:OnDisable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HostingServicesManager.cs:293)
-UnityEditor.AddressableAssets.Settings.AddressableAssetSettings:OnDisable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/Settings/AddressableAssetSettings.cs:1166)
-
-(Filename: Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs Line: 134)
-
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.84 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 0.11 ms.
-Started. Listening on port 62754. Hosting 1 folder.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogFormat (UnityEngine.LogType,string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:134)
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:Log (string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:144)
-UnityEditor.AddressableAssets.HostingServices.HttpHostingService:StartHostingService () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HttpHostingService.cs:228)
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:29)
-UnityEditor.AddressableAssets.HostingServices.HostingServicesManager:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HostingServicesManager.cs:273)
-UnityEditor.AddressableAssets.Settings.AddressableAssetSettings:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/Settings/AddressableAssetSettings.cs:1161)
-
-(Filename: Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs Line: 134)
-
-Hosting : HostedData/StandaloneWindows64
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogFormat (UnityEngine.LogType,string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:134)
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:Log (string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:144)
-UnityEditor.AddressableAssets.HostingServices.HttpHostingService:StartHostingService () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HttpHostingService.cs:231)
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:29)
-UnityEditor.AddressableAssets.HostingServices.HostingServicesManager:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HostingServicesManager.cs:273)
-UnityEditor.AddressableAssets.Settings.AddressableAssetSettings:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/Settings/AddressableAssetSettings.cs:1161)
-
-(Filename: Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs Line: 134)
-
-Port 62754 is in use, cannot start service!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogFormat (UnityEngine.LogType,string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:134)
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogError (string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:164)
-UnityEditor.AddressableAssets.HostingServices.HttpHostingService:StartHostingService () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HttpHostingService.cs:212)
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:29)
-UnityEditor.AddressableAssets.HostingServices.HostingServicesManager:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HostingServicesManager.cs:273)
-UnityEditor.AddressableAssets.Settings.AddressableAssetSettings:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/Settings/AddressableAssetSettings.cs:1161)
-
-(Filename: Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs Line: 134)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.338 seconds
-Platform modules already initialized, skipping
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 1.54 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Unloading 2802 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 141.6 MB.
-System memory in use after: 141.8 MB.
-
-Unloading 58 unused Assets to reduce memory usage. Loaded Objects now: 3378.
-Total: 4.669300 ms (FindLiveObjects: 0.567600 ms CreateObjectMapping: 0.510100 ms MarkObjects: 3.548700 ms  DeleteObjects: 0.041000 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 991.151557 seconds.
-  path: Assets/Oculus/OculusProjectConfig.asset
-  artifactKey: Guid(77c8d45d6d2885a4f90154ae4c585c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/OculusProjectConfig.asset using Guid(77c8d45d6d2885a4f90154ae4c585c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a06e9322a4ad2f32a32aa19c29e8e57c') in 0.025387 seconds
-  Import took 0.032462 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.086305 seconds.
-  path: Assets/Oculus/OculusProjectConfig.asset
-  artifactKey: Guid(77c8d45d6d2885a4f90154ae4c585c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/OculusProjectConfig.asset using Guid(77c8d45d6d2885a4f90154ae4c585c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a06e9322a4ad2f32a32aa19c29e8e57c') in 0.011508 seconds
-  Import took 0.017204 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 60.862254 seconds.
-  path: Assets/MR Platform/Prefabs
-  artifactKey: Guid(ad82a702a8ce64c7c8e7b56228e289c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MR Platform/Prefabs using Guid(ad82a702a8ce64c7c8e7b56228e289c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c19976d747a954be1aaae1f2eba00db4') in 0.008708 seconds
-  Import took 0.016225 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.488019 seconds.
-  path: Assets/MR Platform/Prefabs/FirstPersonPlayer.prefab
-  artifactKey: Guid(ead2acc6c45c045e4b9215a3664c3dd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MR Platform/Prefabs/FirstPersonPlayer.prefab using Guid(ead2acc6c45c045e4b9215a3664c3dd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8677f193b9ca387122fac16207b15f26') in 0.083127 seconds
-  Import took 0.090490 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 48.695395 seconds.
-  path: Assets/MR Platform/Prefabs/MR Platform Manager.prefab
-  artifactKey: Guid(38e6b96b64c75494d935894e5fd838b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MR Platform/Prefabs/MR Platform Manager.prefab using Guid(38e6b96b64c75494d935894e5fd838b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a5385ad4a7a236ae835001d537c796e') in 0.127665 seconds
-  Import took 0.133535 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.282125 seconds.
-  path: Assets/OptiTrack/Scripts
-  artifactKey: Guid(1da5622e8e4490742b30ad77691089eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OptiTrack/Scripts using Guid(1da5622e8e4490742b30ad77691089eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d7aa7984a52edcfcf4cb972792fa0e3') in 0.014001 seconds
-  Import took 0.021950 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.324365 seconds.
-  path: Assets/OptiTrack/Scenes
-  artifactKey: Guid(7909d99d33961594384e237434bce356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OptiTrack/Scenes using Guid(7909d99d33961594384e237434bce356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fe055f0abbc9658c1a373850d80a1d5') in 0.010158 seconds
-  Import took 0.016146 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.184915 seconds.
-  path: Assets/OptiTrack/Plugins
-  artifactKey: Guid(1f31e8dab6595b0478cf42fae60b8017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OptiTrack/Plugins using Guid(1f31e8dab6595b0478cf42fae60b8017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a3e62af3d4f2978b8444a09f039c7df') in 0.014816 seconds
-  Import took 0.022705 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.319669 seconds.
-  path: Assets/OptiTrack/Prefabs/Retargeted Skeleton - OptiTrack.prefab
-  artifactKey: Guid(afbc9c9b98650e44f97662b4f503c261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OptiTrack/Prefabs/Retargeted Skeleton - OptiTrack.prefab using Guid(afbc9c9b98650e44f97662b4f503c261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af62fb6a61ba1945f345bc03c9bf44fe') in 0.013561 seconds
-  Import took 0.019217 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000852 seconds.
-  path: Assets/OptiTrack/Prefabs/Retargeted Skeleton - OptiTrack.prefab
-  artifactKey: Guid(afbc9c9b98650e44f97662b4f503c261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OptiTrack/Prefabs/Retargeted Skeleton - OptiTrack.prefab using Guid(afbc9c9b98650e44f97662b4f503c261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af62fb6a61ba1945f345bc03c9bf44fe') in 0.010199 seconds
-  Import took 0.017011 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010340 seconds.
-Begin MonoManager ReloadAssembly
-Stopping
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogFormat (UnityEngine.LogType,string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:134)
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:Log (string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:144)
-UnityEditor.AddressableAssets.HostingServices.HttpHostingService:StopHostingService () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HttpHostingService.cs:262)
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:OnDisable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:36)
-UnityEditor.AddressableAssets.HostingServices.HostingServicesManager:OnDisable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HostingServicesManager.cs:293)
-UnityEditor.AddressableAssets.Settings.AddressableAssetSettings:OnDisable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/Settings/AddressableAssetSettings.cs:1166)
-
-(Filename: Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs Line: 134)
-
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.21 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Started. Listening on port 62754. Hosting 1 folder.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogFormat (UnityEngine.LogType,string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:134)
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:Log (string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:144)
-UnityEditor.AddressableAssets.HostingServices.HttpHostingService:StartHostingService () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HttpHostingService.cs:228)
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:29)
-UnityEditor.AddressableAssets.HostingServices.HostingServicesManager:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HostingServicesManager.cs:273)
-UnityEditor.AddressableAssets.Settings.AddressableAssetSettings:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/Settings/AddressableAssetSettings.cs:1161)
-
-(Filename: Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs Line: 134)
-
-Hosting : HostedData/StandaloneWindows64
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogFormat (UnityEngine.LogType,string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:134)
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:Log (string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:144)
-UnityEditor.AddressableAssets.HostingServices.HttpHostingService:StartHostingService () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HttpHostingService.cs:231)
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:29)
-UnityEditor.AddressableAssets.HostingServices.HostingServicesManager:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HostingServicesManager.cs:273)
-UnityEditor.AddressableAssets.Settings.AddressableAssetSettings:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/Settings/AddressableAssetSettings.cs:1161)
-
-(Filename: Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs Line: 134)
-
-Port 62754 is in use, cannot start service!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogFormat (UnityEngine.LogType,string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:134)
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogError (string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:164)
-UnityEditor.AddressableAssets.HostingServices.HttpHostingService:StartHostingService () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HttpHostingService.cs:212)
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:29)
-UnityEditor.AddressableAssets.HostingServices.HostingServicesManager:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HostingServicesManager.cs:273)
-UnityEditor.AddressableAssets.Settings.AddressableAssetSettings:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/Settings/AddressableAssetSettings.cs:1161)
-
-(Filename: Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs Line: 134)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.824 seconds
-Platform modules already initialized, skipping
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 1.18 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Unloading 2802 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 141.7 MB.
-System memory in use after: 141.9 MB.
-
-Unloading 58 unused Assets to reduce memory usage. Loaded Objects now: 3385.
-Total: 3.088900 ms (FindLiveObjects: 0.366000 ms CreateObjectMapping: 0.194600 ms MarkObjects: 2.484600 ms  DeleteObjects: 0.042500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.013539 seconds.
-Begin MonoManager ReloadAssembly
-Stopping
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogFormat (UnityEngine.LogType,string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:134)
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:Log (string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:144)
-UnityEditor.AddressableAssets.HostingServices.HttpHostingService:StopHostingService () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HttpHostingService.cs:262)
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:OnDisable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:36)
-UnityEditor.AddressableAssets.HostingServices.HostingServicesManager:OnDisable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HostingServicesManager.cs:293)
-UnityEditor.AddressableAssets.Settings.AddressableAssetSettings:OnDisable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/Settings/AddressableAssetSettings.cs:1166)
-
-(Filename: Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs Line: 134)
-
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.11 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Started. Listening on port 62754. Hosting 1 folder.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogFormat (UnityEngine.LogType,string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:134)
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:Log (string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:144)
-UnityEditor.AddressableAssets.HostingServices.HttpHostingService:StartHostingService () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HttpHostingService.cs:228)
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:29)
-UnityEditor.AddressableAssets.HostingServices.HostingServicesManager:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HostingServicesManager.cs:273)
-UnityEditor.AddressableAssets.Settings.AddressableAssetSettings:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/Settings/AddressableAssetSettings.cs:1161)
-
-(Filename: Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs Line: 134)
-
-Hosting : HostedData/StandaloneWindows64
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogFormat (UnityEngine.LogType,string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:134)
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:Log (string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:144)
-UnityEditor.AddressableAssets.HostingServices.HttpHostingService:StartHostingService () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HttpHostingService.cs:231)
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:29)
-UnityEditor.AddressableAssets.HostingServices.HostingServicesManager:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HostingServicesManager.cs:273)
-UnityEditor.AddressableAssets.Settings.AddressableAssetSettings:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/Settings/AddressableAssetSettings.cs:1161)
-
-(Filename: Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs Line: 134)
-
-Port 62754 is in use, cannot start service!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogFormat (UnityEngine.LogType,string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:134)
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogError (string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:164)
-UnityEditor.AddressableAssets.HostingServices.HttpHostingService:StartHostingService () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HttpHostingService.cs:212)
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:29)
-UnityEditor.AddressableAssets.HostingServices.HostingServicesManager:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HostingServicesManager.cs:273)
-UnityEditor.AddressableAssets.Settings.AddressableAssetSettings:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/Settings/AddressableAssetSettings.cs:1161)
-
-(Filename: Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs Line: 134)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.879 seconds
-Platform modules already initialized, skipping
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 1.19 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Unloading 2802 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 141.7 MB.
-System memory in use after: 141.9 MB.
-
-Unloading 58 unused Assets to reduce memory usage. Loaded Objects now: 3389.
-Total: 3.993800 ms (FindLiveObjects: 0.433800 ms CreateObjectMapping: 0.236000 ms MarkObjects: 3.273300 ms  DeleteObjects: 0.048700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.014611 seconds.
-Begin MonoManager ReloadAssembly
-Stopping
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogFormat (UnityEngine.LogType,string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:134)
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:Log (string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:144)
-UnityEditor.AddressableAssets.HostingServices.HttpHostingService:StopHostingService () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HttpHostingService.cs:262)
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:OnDisable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:36)
-UnityEditor.AddressableAssets.HostingServices.HostingServicesManager:OnDisable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HostingServicesManager.cs:293)
-UnityEditor.AddressableAssets.Settings.AddressableAssetSettings:OnDisable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/Settings/AddressableAssetSettings.cs:1166)
-
-(Filename: Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs Line: 134)
-
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.20 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
-Started. Listening on port 62754. Hosting 1 folder.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogFormat (UnityEngine.LogType,string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:134)
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:Log (string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:144)
-UnityEditor.AddressableAssets.HostingServices.HttpHostingService:StartHostingService () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HttpHostingService.cs:228)
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:29)
-UnityEditor.AddressableAssets.HostingServices.HostingServicesManager:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HostingServicesManager.cs:273)
-UnityEditor.AddressableAssets.Settings.AddressableAssetSettings:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/Settings/AddressableAssetSettings.cs:1161)
-
-(Filename: Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs Line: 134)
-
-Hosting : HostedData/StandaloneWindows64
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogFormat (UnityEngine.LogType,string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:134)
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:Log (string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:144)
-UnityEditor.AddressableAssets.HostingServices.HttpHostingService:StartHostingService () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HttpHostingService.cs:231)
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:29)
-UnityEditor.AddressableAssets.HostingServices.HostingServicesManager:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HostingServicesManager.cs:273)
-UnityEditor.AddressableAssets.Settings.AddressableAssetSettings:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/Settings/AddressableAssetSettings.cs:1161)
-
-(Filename: Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs Line: 134)
-
-Port 62754 is in use, cannot start service!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogFormat (UnityEngine.LogType,string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:134)
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:LogError (string,object[]) (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:164)
-UnityEditor.AddressableAssets.HostingServices.HttpHostingService:StartHostingService () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HttpHostingService.cs:212)
-UnityEditor.AddressableAssets.HostingServices.BaseHostingService:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs:29)
-UnityEditor.AddressableAssets.HostingServices.HostingServicesManager:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/HostingServicesManager.cs:273)
-UnityEditor.AddressableAssets.Settings.AddressableAssetSettings:OnEnable () (at Library/PackageCache/com.unity.addressables@1.18.2/Editor/Settings/AddressableAssetSettings.cs:1161)
-
-(Filename: Library/PackageCache/com.unity.addressables@1.18.2/Editor/HostingServices/BaseHostingService.cs Line: 134)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  5.285 seconds
-Platform modules already initialized, skipping
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 1.17 ms, found 11 plugins.
 Preloading 1 native plugins for Editor in 0.09 ms.
 Unloading 2802 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 141.7 MB.
-System memory in use after: 142.0 MB.
+System memory in use before: 126.1 MB.
+System memory in use after: 126.3 MB.
 
-Unloading 58 unused Assets to reduce memory usage. Loaded Objects now: 3393.
-Total: 3.389900 ms (FindLiveObjects: 0.341400 ms CreateObjectMapping: 0.147700 ms MarkObjects: 2.856600 ms  DeleteObjects: 0.041700 ms)
+Unloading 58 unused Assets to reduce memory usage. Loaded Objects now: 3304.
+Total: 3.689300 ms (FindLiveObjects: 0.404800 ms CreateObjectMapping: 0.171000 ms MarkObjects: 3.034700 ms  DeleteObjects: 0.077000 ms)
 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 17.08 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 54 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.1 MB.
+System memory in use after: 71.3 MB.
+
+Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 3304.
+Total: 373.684200 ms (FindLiveObjects: 0.572800 ms CreateObjectMapping: 369.182800 ms MarkObjects: 3.889700 ms  DeleteObjects: 0.036400 ms)
+

@@ -135,8 +135,8 @@ namespace MRPlatform {
             // Change everything to be relative to centerEyeAnchor, then set centerEyeAnchor position to zero.
             leftHandAnchor.localPosition -= centerEyeAnchor.localPosition;
             rightHandAnchor.localPosition -= centerEyeAnchor.localPosition;
-            leftControllerAnchor.localPosition -= centerEyeAnchor.localPosition;
-            rightControllerAnchor.localPosition -= centerEyeAnchor.localPosition;
+            // leftControllerAnchor.localPosition -= centerEyeAnchor.localPosition;
+            // rightControllerAnchor.localPosition -= centerEyeAnchor.localPosition;
             centerEyeAnchor.localPosition = Vector3.zero;
             RaiseUpdatedAnchorsEvent();
         }
