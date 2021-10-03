@@ -1,0 +1,16 @@
+{
+    "name": "NWH.VehiclePhysics2",
+    "rootNamespace": "",
+    "references": [
+        "GUID:dda7e5805d982194286c8c8b16d77349"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

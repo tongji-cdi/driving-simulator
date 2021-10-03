@@ -2233,6 +2233,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6621357785350290963, guid: 38e6b96b64c75494d935894e5fd838b4, type: 3}
+      propertyPath: LocalAddress
+      value: 192.168.1.11
+      objectReference: {fileID: 0}
     - target: {fileID: 6969518773551824183, guid: 38e6b96b64c75494d935894e5fd838b4, type: 3}
       propertyPath: m_Layer
       value: 5

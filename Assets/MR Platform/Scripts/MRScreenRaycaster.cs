@@ -20,7 +20,7 @@ namespace MRPlatform
 
             m_RayEmitter = new GameObject("Ray Emitter");
             m_RayEmitter.transform.SetParent(this.transform);
-            m_RayEmitter.transform.localPosition = new Vector3(10000, 10000, -0.01f);
+            m_RayEmitter.transform.localPosition = new Vector3(10000, 10000, -0.1f);
             m_RayEmitter.transform.localRotation = Quaternion.identity;
              m_RayEmitter.transform.localScale = Vector3.one;
             m_MRScreenInput = GetComponent<MRScreenInput>();
@@ -54,7 +54,7 @@ namespace MRPlatform
 
         public override void Raycast(PointerEventData eventData, List<RaycastResult> resultAppendList)
         {
-            m_RayEmitter.transform.localPosition = new Vector3(m_MRScreenInput.x,m_MRScreenInput.y, -0.01f);
+            m_RayEmitter.transform.localPosition = new Vector3(m_MRScreenInput.x,m_MRScreenInput.y,-0.1f);
 
             if (enabled == false || m_RayEmitter == null)
                 return;
