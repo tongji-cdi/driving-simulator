@@ -1,4 +1,8 @@
 # MR Drive Simulator
+## 功能
+- 驾驶模拟
+- VR接入和 hand tracking 支持
+- mr touch screen 支持
 ## 项目文件构成
 本工程文件基于实验室 MR Platform 模板项目进行制作。模板项目文件包含了VR支持、光捕系统支持、MR触摸屏支持等功能，但本项目仅使用了VR支持和MR触摸屏支持的功能，具体见Assets里的MR Platform文件夹，另外AddressableAssetsData,Oculus,OptiTrack,XR,WebSocketServer等也是模板的一部分。
 
@@ -43,7 +47,7 @@
 3. 以及打开相同对象下面的`Logitech Steering WHeel` 脚本，运行场景查看输入信号是否正确
 
 
-### 待完善内容
+## 待完善内容
 ### MR
 - 目前虚拟方向盘、座椅、HMI屏幕都没有和实际物体所匹配，需要修改虚拟模型和调整实际物体位置。
 - MR TouchScreen 未支持多点触控和滑动交互。
