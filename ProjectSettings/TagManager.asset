@@ -7,6 +7,10 @@ TagManager:
   - MR Connection UI
   - MR Host UI
   - MR Client UI
+  - Vehicle
+  - Wheel
+  - EnterExitPoint
+  - Road
   layers:
   - Default
   - TransparentFX
@@ -17,7 +21,7 @@ TagManager:
   - Connection UI
   - Host UI
   - Client UI
-  - 
+  - MRScreenUI
   - 
   - 
   - 
